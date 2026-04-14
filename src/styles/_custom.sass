@@ -1,45 +1,702 @@
+// ANIMACION BANNER PRINCIPAL//
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    width: 131px
+    top: 62%
+    right: 78%
+    z-index: 101
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    width: 90px
+    top: 65%
+    right: 15%
+    z-index: 101
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 100px
+    top: 26%
+    right: 83%
+    z-index: 101
+  &-4
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 100px
+    top: 4%
+    right: 39%
+    z-index: 101
+  &-5
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 114px
+    top: 43%
+    right: 5%
+    z-index: 101
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
-.banner-principal .tarjeta
-  background-position: left 50% !important
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
-.banner-interno__titulo__icono i
-  color: $color-primario
-
-figcaption
-  font-weight: normal
-
 .banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+  max-width: 450px
+  @media (min-width: 576px)
+    padding-right: 0 !important
+    padding-top: 0 !important
+    padding-bottom: 0 !important
+    
+.titulo-principal.color-acento-botones .titulo-principal__numero
+  background-color: $color-acento-contenido
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
+figcaption, caption
+  font-weight: normal
+// TAMAÑO IMAGENES //
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+//FONDO BANNER INTERNO TEMAS//
 .banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-.banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+  background-image: url("../assets/curso/portada/interno.svg") !important
+  background-repeat: no-repeat
+  background-color: $color-secundario !important
+//COLOR FONDO//
+.colr
+  color: #12263F
+  &_1
+    span
+      color: #12263F !important
+  &_2
+    color: #F27B58
+  &_3
+    color: $color-sistema-texto
+  &_4
+    color: #00E7BF !important
+.bgr
+  background-color: rgba(156, 163, 175, 0.25)
+  &_2
+    .tarjeta--azul
+      background-color: #F6F6F6
+    .tarjeta--azul.acordion__activo
+      background-color: #FFF4BF
+  &_3
+    background-color: #F6F6F6
+    &::before
+      background-color: #F27B58
+  &_4
+    background-color: #F6F6F6
+    &::before
+      background-color: #4A2EFC
+  &_5
+    background-color: #F6F6F6
+    &::before
+      background-color: #FFD400
+  &_6
+    background-color: #F6F6F6
+    &::before
+      background-color: #00E6BE 
+  &_7
+    background-color: #FFE14C
+    border-radius: 10px
+  &_8
+    background-color: #FFF4BF
+    .slyder-a__btn--atrs
+      background-color: $color-acento-contenido
+      background-image: url("../assets/componentes/arrow1.svg") 
+    .slyder-a__btn--sigt
+      background-color: $color-acento-contenido
+      background-image: url("../assets/componentes/arrow1.svg")
+    .slyder-a__bullets__item--active
+      background-color: $color-acento-contenido !important
+      border-color: $color-acento-contenido 
+    .slyder-a__bullets__item
+      background-color: #E3D696
+  &_9
+    background-color:  #13E3BE
+    opacity: 0.9
+  &_10
+    background-color: #FFF4BF
+  &_11
+    caption
+      background-color: #FCF9F4
+      margin-top: 0
+    thead 
+      background-color: #FCF9F4
+  &_12
+    background-color: #FFF0A6
+  &_13
+    background-color: #E8E8E8
+  &_14
+    background-color: #F8B5A1
+  &_15
+    background-color: #FFFBE3
+    border-radius: 10px
+  &_16  
+    background-color: #F4FEFC
+    &::before
+      background-color: #00E7BF
+  &_17
+    background-color: #EDFFFC
+  &_18
+    background-color: #FFF4BF
+  &_19
+    background-color: #E8F7FD
+    border-radius: 10px
+    .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+      // background-image: url("../assets/componentes/arrow1.svg") 
+    .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+      // background-image: url("../assets/componentes/arrow1.svg")
+    .slyder-a__bullets__item--active
+      background-color: $color-acento-botones !important
+      border-color: $color-acento-botones 
+    .slyder-a__bullets__item
+      background-color: #D6D6D6
+  &_20
+    background-color: #F1FFFD
+    border-radius: 10px
+    transition: transform .3s ease-in-out
+    &:hover
+      background-color: #D3F9F2
+      transform: scale(1.1)
+      transform: translateY(-30px)
+  &_21
+    background-color: #FFF4BF
+  &_22
+    background-color: #D3F9F2
+    height: 48%
+    @media screen and (max-width: 992px)
+      height: 61%
+    @media screen and (max-width: 420px)
+      height: 54%
+  &_23
+    background-color: #D3F9F2
+    &::before
+      background-color: #00E7BF
+  &_24
+    border-top: solid 5px $color-acento-botones
+  &_25
+    background-color: #FFF0A6
+  &_26
+    background-color: #FCFCFC
+  &_27
+    background-color: #F8BCAB
+  &_28
+    background-color: #ACFFF0
+    border-radius: 10px
+  &_29
+    background-color: #F2FFFD
+    border-radius: 10px
+  &_30
+    background-color: #F6F6F6
+    border-radius: 10px
+  &_31
+    background-color: #F6F6F6
+    border-radius: 10px
+    .slyder-a__btn--atrs
+      background-color: $color-acento-contenido
+      background-image: url("../assets/componentes/arrow1.svg") 
+      @media screen and (max-width: 420PX)
+        width: 30px
+        height: 30px
+    .slyder-a__btn--sigt
+      background-color: $color-acento-contenido
+      background-image: url("../assets/componentes/arrow1.svg")
+      @media screen and (max-width: 420PX)
+        width: 30px
+        height: 30px
+    .slyder-a__bullets__item--active
+      background-color: $color-acento-contenido !important
+      border-color: $color-acento-contenido 
+    .slyder-a__bullets__item
+      background-color: $color-acento-contenido !important
+      @media screen and (max-width: 420PX)
+        margin: 0 2px
+  &_32
+    background-color: #FFF3D3
+    border-radius: 10px
+  &_33
+    background-color: #BAF2E9
+    border-radius: 10px
+  &_34
+    background-color: #F5CDC2
+    border-radius: 10px
+  &_35
+    background-color: #D3F9F2
+    border-radius: 10px
+  &_36
+    background-color: #FFAD95
+    border-radius: 10px
+  &_37
+    background-color: #EDFFFD
+    border-radius: 10px
+    transition: transform .3s ease-in-out
+    &:hover
+      background-color: #BFFFF3
+      transform: scale(1.1)
+      transform: translateY(-30px)
+  &_38
+    background-color: #F6F6F6
+    border-radius: 10px
+    .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+      background-image: url("../assets/componentes/arrow1.svg") 
+    .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+      background-image: url("../assets/componentes/arrow1.svg")
+    .slyder-a__bullets__item--active
+      background-color: $color-acento-botones !important
+      border-color: $color-acento-botones 
+    .slyder-a__bullets__item
+      background-color: $color-acento-botones
+  &_39
+    background-color: #EDFFFD
+    &:hover
+      background-color: #BFFFF3
+  &_40
+    background-color: #F6F6F6
+  &_41
+    background-color: #DBFFFA
+    &:hover
+      background-color: #00E7BF
+  &_42
+    background-color: #DBFFFA 
+    &::before
+      background-color: $color-primario
+  &_43
+    background-color: #E8F7FD
+    border-radius: 10px
+  &_44
+    background-color: #FFDAD0
+    border-radius: 10px
+.bg_grad-01
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: #F6F6F6
+    background-repeat: no-repeat
+    background-size: contain
+    // @media screen and (max-width: 420px)
+    //   border-radius: 20px
+    //   width: 390px
+    //   height: 780px
+    //   left: -11px
+    //   top: -16px
+    @media screen and (min-width: 992px)
+      border-top-right-radius: 20px
+      border-bottom-right-radius: 20px
+      top: 0
+      left: 0
+      width: 100%
+      border-radius: 10px
+.bg_grad-02
+  position: relative
+  div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -33px
+    width: 30%
+    height: 87px
+    background: #E3DEFF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -23px
+      left: -33px
+      width: 38%
+      height: 76px
+    @media screen and (max-width: 420px)
+      width: 41%
+      height: 14%
+      left: 0
+      top: -16px
+.bg_grad-03
+  position: relative
+  div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 20%
+    height: 98px
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -23px
+      left: 0px
+      width: 38%
+      height: 96px
+    @media screen and (max-width: 420px)
+      width: 41%
+      height: 19%
+      left: 0
+      top: 0px
+.bg_grad-04
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -27px
+    left: 0
+    width: 20%
+    height: 98px
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -23px
+      left: 0px
+      width: 38%
+      height: 96px
+    @media screen and (max-width: 420px)
+      width: 41%
+      height: 18%
+      left: -14px
+      top: -16px
+.bg_grad-05
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 20%
+    height: 98px
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -23px
+      left: 0px
+      width: 38%
+      height: 96px
+    @media screen and (max-width: 420px)
+      width: 41%
+      height: 25%
+      left: 0
+      top: 0px
+.bg_grad-06
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 20%
+    height: 98px
+    background: #D3F9F2
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -23px
+      left: 0px
+      width: 38%
+      height: 96px
+    @media screen and (max-width: 420px)
+      width: 41%
+      height: 25%
+      left: 0
+      top: 0px
+//MARGIN Y PADDING PERSONALIZADO//
+.mrg
+  margin-top: 150px
+  @media screen and (max-width: 420px)
+    margin-top: 1rem
+  &_1
+    margin-top: 95px
+    @media screen and (max-width: 420px)
+      margin-top: 1rem
+//MODIFICAR POSICION PANTALLA//
+.modif
+  left: 50%
+  @media screen and (max-width: 420px)
+    left: 0
+  @media screen and (max-width: 992px)
+    left: 0
+  &_1
+    right: 39% 
+    @media screen and (max-width: 420px)
+      right: 0
+    @media screen and (max-width: 992px)
+      right: 0
+  &_2
+    &::after
+      width: 9px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #FFD400
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_3
+    &::after
+      width: 9px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #00E7BF
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_4
+    &::after
+      width: 9px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #F27B58
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_5
+    &::after
+      width: 12px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: $color-acento-contenido
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_6
+    &::after
+      width: 12px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #00E7BF
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_7
+    &::after
+      width: 12px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #ACFFF0
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_8
+    &::after
+      width: 12px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #D3F9F2
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_9
+    &::after
+      width: 12px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #FFD400
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_10
+    &::after
+      width: 12px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #FFE566
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_11
+    width: 98%
+    margin-top: 24px
+  &_12
+    width: 68%
+    @media screen and (max-width: 992px)
+      width: 100%
+    @media screen and (max-width: 420px)
+      width: 90%
+      right: 18px
+      top: -18px
+        
+  &_13
+    top: 30px !important
+  &_14
+    transition: transform .3s ease-in-out
+    &:hover
+      transform: scale(1.1)
+      transform: translateY(-30px)
+  &_15
+    &::after
+      width: 12px
+      height: 20px
+      top: 12px
+      left: -12px
+      background-color: #FFF0A6
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%, -50%)
+  &_16
+    .img-infografica__card
+      width: 372px
+      top: -167px
+//TARJETA UP TEMA 1//
+.tarjetas-up
+  overflow: hidden
+  border-radius: 10px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 10px
+    width: 100%
+    height: 80%
+    left: 0
+    bottom: -60%
+    i:last-child
+      display: none
+    @media screen and (max-width: 420px)
+      bottom: -66%
+   
+  &:hover
+    .tarjetas-up_card
+      bottom: 0%
+      @media screen and (max-width: 420px)
+        bottom: -29%
+      @media screen and (max-width: 992px)
+        bottom: 0%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+    
+//CLASES REEMPLAZADAS//
+.tarjeta.color-primario *
+  color: #12263F
+.tarjeta.color-primario
+  background-color: #ACFFF0
+.etiqueta
+  color: #12263F
+  background-color: #FFD400
+  padding: 2px 6px 5px
+  margin-right: 5px
+  &_1
+    color: #12263F
+    background-color: #F6F6F6
+    padding: 2px 6px 5px
+    border-top: solid 7px #FFD400
+  &_2
+    color: #12263F
+    background-color: #F6F6F6
+    padding: 2px 6px 5px
+    border-top: solid 7px #00E7BF
+  &_3
+    background-color: #9CA3AF
+    padding: 2px 6px 5px
+    margin-right: 5px
+  &_4
+    background-color: #F59C82
+    padding: 2px 6px 5px
+    margin-right: 5px
+  &_5
+    color: #12263F
+    background-color: #F4B400
+    padding: 2px 6px 5px
+    margin-right: 5px
+  &_6
+    color: #12263F
+    background-color: #ACFFF0
+    padding: 2px 6px 5px
+    margin-right: 5px
+  &_7
+    color: #12263F
+    background-color: #00E7BF
+    padding: 2px 6px 5px
+    margin-right: 5px
+.img-infografica__item
+  width: 4.5%
+.img-infografica__card
+  width: 515px
