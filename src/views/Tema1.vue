@@ -136,44 +136,42 @@
 
     p.mb-5 <b>Productos de consumo:</b> hacen referencia a los bienes y servicios que serán usados para el propio beneficio, es decir, para satisfacer alguna necesidad asociada a la persona o al grupo familiar de quien los adquiere. Estos productos de consumo, a su vez, se clasifican en: 
 
-    .row.justify-content-center.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5.mb-4.text-stard Conveniencia
-              p.mb-2.text-stard Son aquellos que se compran cotidianamente, no requieren de mucho esfuerzo y la variable precio suele influir altamente como decisor de la compra. Ejemplos: leche, huevos, cepillo de dientes, cita al odontólogo.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.svg')})`}")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-4
+        .crd_hover_txt.rounded-3(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/t1-15.png", class="img-fluid")
+          .crd_hover_txt--body.color-acento-botones.p-4
+            h5.mb-4.text-center Conveniencia
+            p.mb-2.text-center  Son aquellos que se compran cotidianamente, no requieren de mucho esfuerzo y la variable precio suele influir altamente como decisor de la compra. Ejemplos: leche, huevos, cepillo de dientes, cita al odontólogo.
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5.mb-4.text-stard De comparación
-              p.mb-2.text-stard Tiene un proceso de compra más planeado, se incluyen variables adicionales en la elección del bien. Ejemplos: lavadora, nevera, llantas, carro.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.svg')})`}")
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-4
+        .crd_hover_txt.rounded-3(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/t1-16.png", class="img-fluid")
+          .crd_hover_txt--body.color-acento-botones.p4
+            h5.mb-4.text-center De comparación
+            p.mb-2.text-center Tiene un proceso de compra más planeado, se incluyen variables adicionales en la elección del bien. Ejemplos: lavadora, nevera, llantas, carro.
       
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5.mb-4.text-stard Especialidad
-              p.mb-2.text-stard Constituye aquellos bienes y servicios en los que hay un proceso riguroso de búsqueda de opciones y hay poco interés en sustituir el producto, ya sea por términos de marca o aspiracionales. Con frecuencia están relacionados con bienes de lujo, de tecnología. Ejemplo: perfumes, relojes de marca, celulares.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-17.svg')})`}")
-      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5.mb-4.text-stard No buscados
-              p.mb-2.text-stard Son aquellos bienes y servicios de los cuales no se conoce mucho, hay aparentemente poco interés en ellos; sin embargo, cuando aparecen frente al posible comprador pueden despertar el interés. Ejemplo: seguros todo riesgo.  
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-18.svg')})`}")
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-4
+          .crd_hover_txt.rounded-3(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema1/t1-17.png", class="img-fluid")
+            .crd_hover_txt--body.color-acento-botones.p4
+              h5.mb-4.text-center Especialidad
+              p.mb-2.text-center Constituye aquellos bienes y servicios en los que hay un proceso riguroso de búsqueda de opciones y hay poco interés en sustituir el producto, ya sea por términos de marca o aspiracionales. Con frecuencia están relacionados con bienes de lujo, de tecnología. Ejemplo: perfumes, relojes de marca, celulares.
 
-      
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-4
+          .crd_hover_txt.rounded-3(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema1/t1-18.png", class="img-fluid")
+            .crd_hover_txt--body.color-acento-botones.p4
+              h5.mb-4.text-center No buscados
+              p.mb-2.text-center Son aquellos bienes y servicios de los cuales no se conoce mucho, hay aparentemente poco interés en ellos; sin embargo, cuando aparecen frente al posible comprador pueden despertar el interés. Ejemplo: seguros todo riesgo.
     
     p.mb-5 <b>Productos de producción:</b> en esta clasificación se incluyen todos los bienes que serán utilizados para procesarlos o transformarlos usualmente con fines comerciales. Los productos de producción se clasifican en: 
 

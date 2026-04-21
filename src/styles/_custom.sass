@@ -669,6 +669,9 @@ figcaption, caption
   @position: relative  
   padding: 1rem !important
   overflow: hidden !important
+  @media screen and (max-width: 1024px)
+    top: 79px !important
+    
 
 .tarjeta.color-primario
   background-color: #ACFFF0
@@ -716,4 +719,67 @@ figcaption, caption
 .img-infografica__card
   width: 515px
 
- 
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  
+  .crd_hover_txt--img
+    overflow: hidden
+    display: block
+    figure
+      margin: 0
+      line-height: 0
+      img
+        display: block
+        width: 100%
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem
+    bottom: 0    
+    width: 100%
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc(100% - 3.85rem))
+    background-color: $white
+    border-bottom: 0px !important
+    
+    h4
+      color: $color-sistema-texto
+      font-style: italic
+    
+    &.color-acento-contenido
+      background-color: rgba($color-acento-contenido, 0.7)
+      h5, p
+        color: $white !important
+      
+    &.color-acento-botones
+      background-color: #ACFFF0
+    
+  &:hover
+    .crd_hover_txt--body
+      background-color: $color-primario
+      color: $color-sistema-texto
+      transform: translateY(0)
+      border-radius: 23px
+      
+      h4
+        color: $color-sistema-texto !important
+      
+      &.color-acento-contenido
+        background-color: rgba($color-secundario, 0.75)
+        h5, p
+          color: $black !important
+      
+      &.color-acento-botones
+        background-color: #ACFFF0
+        border-radius: 10px
+      
+      &.color-terciario-20
+        background-color: #ACFFF0
+
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
