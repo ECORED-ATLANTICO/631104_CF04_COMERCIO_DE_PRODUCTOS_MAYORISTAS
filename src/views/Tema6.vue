@@ -49,7 +49,7 @@
     .row.justify-content-center(data-aos="zoom-out-down")
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
-          h5 Tabla 2
+          h5 Tabla 3
           span Ventajas y desventajas de las ventas según el medio 
         .tabla-a.color-acento-contenido.mb-5.modif_24
           table.bgr_11   
@@ -83,9 +83,9 @@
     p.mb-5 A modo de ejemplo, se tienen las siguiente situaciones, una empresa de telecomunicaciones vende sus productos a los clientes hogares y a las empresas, en este caso, se indica que dicha compañía vende bajo tipos de ventas B2C y B2B; en un segundo caso, una empresa importadora vende al por mayor equipos de cómputo a distribuidores, por tanto, esta empresa realiza ventas exclusivamente B2B; en un tercer caso, una empresa constructora está dedicada a la construcción de vías, por lo que su cliente es el Estado, en este sentido realiza ventas B2G. 
 
     figure.mb-5(data-aos="zoom-in-up")
-      .video
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/7M72zaMrfSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        
+      figcaption(style="font-weight: normal;") Video: Ventas y sus tipos
     separador
 
     #t_6_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -363,19 +363,19 @@
           img(src='@/assets/curso/tema6/t6-23.png' alt='AvatarTop')
     
     .row.mb-5.justify-content-center.align-items-stretch
-      .col-sm-5.col-lg-4
+      .col-sm-5.col-md-6.col-lg-4
         .tarjeta-avatar.modif_14
           img.modif_13.img100(src='@/assets/curso/tema6/t6-24.svg' alt='AvatarTop')
           .tarjeta.bgr_39
             .p-5
               p.mb-0 La Real Academia de la Lengua Española (2021), referencia que la objeción es la “razón que se propone o dificultad que se presenta en contra de una opinión o designio, o para impugnar una proposición”.
-      .col-sm-5.col-lg-4
+      .col-sm-5.col-md-6.col-lg-4
         .tarjeta-avatar.modif_14
           img.modif_13.img100(src='@/assets/curso/tema6/t6-25.svg' alt='AvatarTop')
           .tarjeta.bgr_39
             .p-5
               p.mb-0 Según Ardila (1984), “las objeciones son cualquier acto del comprador que de forma real o aparente interrumpe la labor del vendedor” (p. 9).
-      .col-sm-5.col-lg-4
+      .col-sm-5.col-md-6.col-lg-4
         .tarjeta-avatar.modif_14
           img.modif_13.img100(src='@/assets/curso/tema6/t6-26.svg' alt='AvatarTop')
           .tarjeta.bgr_39

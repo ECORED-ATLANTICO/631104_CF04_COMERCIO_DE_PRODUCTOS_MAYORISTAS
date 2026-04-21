@@ -26,22 +26,22 @@
         p A continuación se listan los principales documentos clasificados como documentos negociables, recordando que suelen usarse de forma frecuente por las empresas en Colombia, dado que facilitan las operaciones comerciales, son de uso diario y pueden ser utilizados como respaldo, ya que pueden convertirse en medios de pago. Los más usados en el medio son los siguientes:
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_2(data-aos="zoom-out-down")
-      .row(titulo="El cheque")
-        .col-md-8.mb-4.mb-md-0.px-5
+      .row.justify-content-center(titulo="El cheque")
+        .col-md-12.col-lg-8.mb-4.mb-md-0.px-5
           p Es un documento a través del cual quien lo emite y firma (llamado girador) le solicita a su entidad financiera (llamada girado) que le entregue al beneficiario (o tomador) el valor específico referenciado, lo que significa que este soporte representa una forma de pagar sin necesidad de tener efectivo. Para que un cheque sea válido debe tener logo del banco, número o consecutivo, la palabra cheque, suma que está representando y la firma de quien lo expide.
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src='@/assets/curso/tema7/t7-5.png', alt='Texto que describa la imagen')
-      .row(titulo="Los pagarés")
-        .col-md-8.mb-4.mb-md-0.px-5
+      .row.justify-content-center(titulo="Los pagarés")
+        .col-md-12.col-lg-8.mb-4.mb-md-0.px-5
           p Son documentos que se firman a favor de un tercero como respaldo de una acreencia, en donde quien contrae la deuda (deudor) se compromete a pagar cierta cantidad de dinero en una fecha específica y usualmente implicando un pago de una tasa de interés aceptada por el firmante. Con el auge del crédito, los pagarés han tomado cada vez más fuerza, ya que las entidades formalizan los compromisos de sus clientes a través de este soporte. Las partes que suelen conformar un pagaré son: la palabra pagaré, fecha de vencimiento, nombre de la persona natural o jurídica propietaria del pagaré y a quien debe cancelarse el dinero adeudado, el importe (valor a pagar) y la firma del deudor.
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src='@/assets/curso/tema7/t7-2.png', alt='Texto que describa la imagen')
-      .row(titulo="Las letras de cambio")
-        .col-md-8.mb-4.mb-md-0.px-5
+      .row.justify-content-center(titulo="Las letras de cambio")
+        .col-md-12.col-lg-8.mb-4.mb-md-0.px-5
           p Son un soporte de cobro que tiene por fin referenciar un valor a pagar en una fecha determinada, la diferencia con el pagaré es que acá intervienen tres agentes en vez de dos como en el caso anterior. En una letra de cambio debe existir el librador (la empresa que emite la deuda), un librado (quien tiene la obligación de pagar) y el tomador (quien se beneficiará del pago). Como característica de este tipo de documento se tiene que usualmente no implica el pago de tasas de interés sino el pago del valor adeudado, lo que quizá haya llevado a que hoy en día no sea tan usado en comparación con los pagarés.
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src='@/assets/curso/tema7/t7-6.png', alt='Texto que describa la imagen')
 
@@ -68,52 +68,52 @@
     p.text-bold Los contratos en Colombia
     p.mb-5 Los contratos son documentos de formalización que aplican cuando se adquiere un bien o servicio que tenga asociados pagos recurrentes o cuando se van a generar relaciones comerciales entre dos agentes. Tienen como características que:
 
-    .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0
+    .row.mb-5.justify-content-center
+      .col-12.col-md-8.col-lg-4.mb-4
         figure
           img(src='@/assets/curso/tema7/t7-3.png', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-md-12.col-lg-8
         ul.lista-ul--color
-          li.mb-2
-            i.fas.fa-paper-plane.colr_4
-            | Deben quedar por escrito (salvo que la venta se realice de forma telefónica y el cliente manifieste estar de acuerdo con las condiciones referenciadas por la empresa).
-          li.mb-2
-            i.fas.fa-paper-plane.colr_4
-            | Deben ser firmados y/o aceptados por cada una de las partes participantes en el mismo.
-          li.mb-2
-            i.fas.fa-paper-plane.colr_4
-            | Tienen validez jurídica.
-          li.mb-2
-            i.fas.fa-paper-plane.colr_4
-            | Se realizan de forma consensuada, es decir, debe existir la voluntad de cada una de las partes.
-          li.mb-2
-            i.fas.fa-paper-plane.colr_4
-            | El objeto del contrato debe ser lícito (legal).
-          li.mb-2
-            i.fas.fa-paper-plane.colr_4
-            | Se debe especificar claramente el objeto del contrato, duración, obligaciones de las partes, tiempos de entrega, sanciones. 
- 
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_4.me-2
+            span Deben quedar por escrito (salvo que la venta se realice de forma telefónica y el cliente manifieste estar de acuerdo con las condiciones referenciadas por la empresa).
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_4.me-2
+            span Deben ser firmados y/o aceptados por cada una de las partes participantes en el mismo.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_4.me-2
+            span Tienen validez jurídica.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_4.me-2
+            span Se realizan de forma consensuada, es decir, debe existir la voluntad de cada una de las partes.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_4.me-2
+            span El objeto del contrato debe ser lícito (legal).
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_4.me-2
+            span Se debe especificar claramente el objeto del contrato, duración, obligaciones de las partes, tiempos de entrega, sanciones.
+        
     p.text-bold Diligenciamiento del contrato
 
     .bgr_36.p-4.mb-5
       p.text-bold.mb-0 Para recordar
       p.mb-0 Antes de entrar a revisar los aspectos a considerar en el diligenciamiento de un contrato es importante mencionar que con el auge de las transacciones digitales, en muchos casos ya no se requiere la impresión de los documentos, ya que este proceso puede realizarse utilizando diferentes canales tecnológicos; sin embargo, cabe referenciar algunas consideraciones respecto a la firma de contratos impresos. 
  
-    .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0
+    .row.mb-5.justify-content-center
+      .col-12.col-md-12.col-lg-8.order-2.order-lg-1.mb-3
         p.mb-0.text-bold Documentos impresos: 
         p se sugiere sean generados a computador (para mayor claridad) y entregados para firma en dos tenores (es decir, un ejemplar para cada una de las partes). Asimismo, que sean diligenciados en letra negra, referenciando muy bien la fecha en que se celebra y sin dejar espacios en blanco. Es importante realizar la validación sobre si quien firma realmente tiene facultades (poder) para hacerlo, en el caso de personas naturales quien lo firma es quien está aceptando las condiciones del servicio y en términos generales deben ser personas mayores de 18 años. En el caso de personas jurídicas (empresas) debe ser el representante legal (gerente) o un apoderado (una persona a la cual legalmente se le ha concedido esa autorización).
         p.mb-0 Para documentos no impresos se debe tener en cuenta que en Colombia existen tres tipos de firmas, y que dependiendo del tipo de soporte o de la empresa con la que se realice la transacción se solicitará una u otra, véalas a continuación:
-      .col-12.col-md-4.d-flex.align-items-center
+      .col-12.col-md-8.col-lg-4.order-1.order-lg-2.d-flex.mb-4.align-items-center
         figure
           img(src='@/assets/curso/tema7/t7-4.png', alt='Texto que describa la imagen')
     
     figure.mb-5(data-aos="zoom-in-up")
-      .video
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/MgNyjRdgJWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+      figcaption(style="font-weight: normal;") Video: Tipos de firmas
     .row.justify-content-center(data-aos="flip-up")
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .row.mb-5.bgr_35.p-3
           .col-12.col-md-2
             figure.d-flex.justify-content-center

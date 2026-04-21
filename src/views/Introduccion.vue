@@ -12,9 +12,9 @@
     p.mb-5 Las ventas constituyen el objetivo comercial de una empresa, vender es la única forma en la que se garantiza que los bienes y servicios que ofrece una organización lleguen a manos de los clientes y, para que esto sea una realidad las empresas requieren de vendedores que tengan las competencias necesarias para satisfacer las necesidades de los clientes y garantizar la rentabilidad que espera la compañía con la venta de sus productos. 
 
     figure.mb-5(data-aos="zoom-in-up")
-      .video
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/jtClREk9TY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+      figcaption(style="font-weight: normal;") Video: Cierre de ventas de productos mayoristas: introducción
 </template>
 
 <script>

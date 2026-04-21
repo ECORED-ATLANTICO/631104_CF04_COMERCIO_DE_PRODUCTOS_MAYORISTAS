@@ -88,10 +88,10 @@
     SlyderF(columnas="col-lg-12 col-xl-12")
       .tarjeta.bgr_30.p-4.p-xl-5
         .row.justify-content-center.mb-3
-          .col-12.col-lg-5.mb-3.mb-lg-0
+          .col-12.col-lg-12.col-xl-7.mb-3.mb-lg-0
             p.mb-0.text-bold Personas en situación discapacidad visual 
-            p.mb-0 Este tipo de discapacidad se manifiesta en la persona por la pérdida total o parcial del sentido de la vista. Existen diferentes grados de pérdida de la vista, por lo que también en este grupo de personas se encuentran diferencias.  Algunos protocolos de atención y servicio, que pueden ser de utilidad para un vendedor de ventas mayoristas en el momento de interactuar con personas en situación de discapacidad visual son:
-          .col-12.col-lg-5
+            p.mb-3 Este tipo de discapacidad se manifiesta en la persona por la pérdida total o parcial del sentido de la vista. Existen diferentes grados de pérdida de la vista, por lo que también en este grupo de personas se encuentran diferencias.  Algunos protocolos de atención y servicio, que pueden ser de utilidad para un vendedor de ventas mayoristas en el momento de interactuar con personas en situación de discapacidad visual son:
+          .col-12.col-lg-6.col-xl-5
             figure
               img(src='@/assets/curso/tema5/t5-4.png', alt='Texto que describa la imagen')
         .row.justify-content-center
@@ -133,10 +133,10 @@
 
       .tarjeta.bgr_30.p-4.p-xl-5
         .row.justify-content-center.mb-4
-          .col-12.col-lg-7.mb-3.mb-lg-0
+          .col-12.col-lg-12.col-xl-7.mb-3.mb-lg-0
             p.mb-0.text-bold Personas en situación de discapacidad auditiva 
-            p.mb-0 Las consecuencias de la sordera (término que engloba cualquier tipo de pérdida auditiva) variarán de una persona a otra dependiendo no solo del grado, edad de adquisición y tipo de sordera, sino de otros factores contextuales que imprimen características diferenciales tales como los núcleos familiares y de escolaridad en donde se construyan sus procesos de identidad, sentido de pertenencia y adquisición de la primera lengua; los cuales no dependen únicamente de las limitaciones biológicas sino de los complejos procesos de relaciones sociales y culturales, de resistencias y acomodaciones que enmarcan las vidas de las personas en situación de discapacidad auditiva.
-          .col-12.col-lg-5
+            p.mb-3 Las consecuencias de la sordera (término que engloba cualquier tipo de pérdida auditiva) variarán de una persona a otra dependiendo no solo del grado, edad de adquisición y tipo de sordera, sino de otros factores contextuales que imprimen características diferenciales tales como los núcleos familiares y de escolaridad en donde se construyan sus procesos de identidad, sentido de pertenencia y adquisición de la primera lengua; los cuales no dependen únicamente de las limitaciones biológicas sino de los complejos procesos de relaciones sociales y culturales, de resistencias y acomodaciones que enmarcan las vidas de las personas en situación de discapacidad auditiva.
+          .col-12.col-lg-6.col-xl-5
             figure
               img(src='@/assets/curso/tema5/t5-5.png', alt='Texto que describa la imagen')
         .row.justify-content-center
@@ -149,23 +149,25 @@
                 div
                   p.mb-0.text-bold Para recordar
                   p.mb-0 Desde el rol de un vendedor el protocolo de atención y servicio con las personas en situación de discapacidad auditiva consiste en apoyarse en el lenguaje de señas, por lo que en caso de no tener este conocimiento se sugiere buscar el apoyo de una persona que tenga las competencias en este lenguaje. 
+     
       .tarjeta.bgr_30.p-4.p-xl-5
         .row.justify-content-center.mb-4
-          .col-12.col-lg-7.mb-3.mb-lg-0
+          .col-12.col-lg-12.col-xl-7.mb-3.mb-lg-0
             p.mb-0.text-bold Personas con movilidad reducida 
-            p.mb-0 Comprende a las personas que tienen limitaciones para moverse o caminar debido a la falta total o parcial de sus piernas. También a aquellas que teniendo sus piernas no tienen movimiento en estas o sus movimientos tienen restricciones que provocan limitaciones para desplazarse por sí mismas, de tal forma que necesitan la ayuda de otra persona o de algún instrumento como silla de ruedas, muletas o prótesis. Se incluyen, además, las personas que tienen limitaciones para desplazarse y que no cuentan con ningún tipo de ayuda, así como a las personas que cojean para caminar y aquellas personas que presentan deficiencias en el movimiento de sus manos y brazos o carecen de uno de estos miembros, se incluyen dentro de este tipo de discapacidad.
-          .col-12.col-lg-5
+            p.mb-3 Comprende a las personas que tienen limitaciones para moverse o caminar debido a la falta total o parcial de sus piernas. También a aquellas que teniendo sus piernas no tienen movimiento en estas o sus movimientos tienen restricciones que provocan limitaciones para desplazarse por sí mismas, de tal forma que necesitan la ayuda de otra persona o de algún instrumento como silla de ruedas, muletas o prótesis. Se incluyen, además, las personas que tienen limitaciones para desplazarse y que no cuentan con ningún tipo de ayuda, así como a las personas que cojean para caminar y aquellas personas que presentan deficiencias en el movimiento de sus manos y brazos o carecen de uno de estos miembros, se incluyen dentro de este tipo de discapacidad.
+          .col-12.col-lg-6.col-xl-5
             figure
               img(src='@/assets/curso/tema5/t5-6.png', alt='Texto que describa la imagen')
         .row.justify-content-center.bgr_33
           .col-12.p-4
             p.mb-0 Protocolos para un vendedor en el momento de interactuar con un cliente con movilidad reducida: preguntarle si necesita ayuda para transportar objetos o paquetes, para hablar con una persona que utiliza silla de ruedas hay que situarse de frente, se debe dirigir la comunicación a la persona en silla de ruedas y no a su acompañante, si se está en grupo no se debe hablar con el resto de personas fuera de su campo visual, se le debe preguntar si necesita ayuda antes de empujar la silla de ruedas, en caso que aplique, al parar la silla se debe colocar correctamente, bloqueando los frenos, no se les debe separar nunca de sus muletas, bastones o caminador, así mismo, no solicitarle que cargue nuestros objetos o maletas sobre su silla.
+      
       .tarjeta.bgr_30.p-4.p-xl-5
         .row.justify-content-center.mb-4
-          .col-12.col-lg-7.mb-3.mb-lg-0
+          .col-12.col-lg-12.col-xl-7.mb-3.mb-lg-0
             p.mb-0.text-bold Personas en situación de discapacidad intelectual o mental 
-            p.mb-0 Hace relación a personas que tuvieron un desarrollo mental incompleto o detenido, lo cual impacta negativamente la realización de sus actividades cotidianas.  En general las personas con discapacidad intelectual, aunque de forma más lenta, pueden llegar a alcanzar completa autonomía para el cuidado personal, en actividades de la vida diaria del hogar, en el manejo de la comunidad y sus servicios y, en el desarrollo de una ocupación productiva de su interés.
-          .col-12.col-lg-5
+            p.mb-3 Hace relación a personas que tuvieron un desarrollo mental incompleto o detenido, lo cual impacta negativamente la realización de sus actividades cotidianas.  En general las personas con discapacidad intelectual, aunque de forma más lenta, pueden llegar a alcanzar completa autonomía para el cuidado personal, en actividades de la vida diaria del hogar, en el manejo de la comunidad y sus servicios y, en el desarrollo de una ocupación productiva de su interés.
+          .col-12.col-lg-6.col-xl-5
             figure
               img(src='@/assets/curso/tema5/t5-7.png', alt='Texto que describa la imagen')
         .row.justify-content-center.bgr_34

@@ -10,15 +10,16 @@
     p.mb-5 En el siguiente video se hablará en qué consiste la atención al cliente:
 
     figure.mb-5(data-aos="zoom-in-up")
-      .video
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Z9zSnDD46IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(style="font-weight: normal;") Video: Atención al cliente
 
-    .row.mb-5
-      .col-12.col-md-8(data-aos="fade-right")
+    .row.mb-5.justify-content-center
+      .col-12.col-md-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p.mb-0.text-bold Protocolos de atención al cliente
         p De acuerdo con lo expuesto previamente es importante tener en cuenta que los protocolos hacen parte de la gestión integral al cliente, ya que son la herramienta principal para que cada colaborador conozca el grado de responsabilidad que tiene al momento de interactuar con cada cliente. 
         p Los protocolos de servicio al cliente reflejan el conjunto de reglas que debe seguir un colaborador de la empresa en el momento de interactuar con un cliente, en cuanto a la forma de comunicación que debe mantener, los procesos de interacción, dependiendo de la necesidad del cliente y el trato que debe mantener durante la interacción. 
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-8.col-lg-4.order-1.order-lg-2.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
     

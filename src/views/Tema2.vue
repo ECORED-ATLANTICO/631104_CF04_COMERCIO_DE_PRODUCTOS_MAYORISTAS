@@ -46,9 +46,9 @@
     p.mb-5 A modo de referente, Bogotá Emprende (Secretaría de Desarrollo Económico de Bogotá- Cámara de Comercio de Bogotá, 2010) plantea las reglas de oro en materia de etiqueta empresarial, las cuales tienen por fin dar algunas pautas para los equipos de trabajo, las cuales se muestran en la siguiente tabla:
 
     .row.justify-content-center(data-aos="zoom-out-down")
-      .col-12.col-md-8
-        .titulo-sexto.color-acento-botones
-          h5 Tabla 1
+      .col-12.col-md-12.col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2
           span Reglas de oro en la etiqueta empresarial
         .tabla-b.color-acento-botones.mb-5
           table.bgr_24

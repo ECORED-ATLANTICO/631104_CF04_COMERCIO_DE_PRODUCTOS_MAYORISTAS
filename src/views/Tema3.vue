@@ -7,27 +7,27 @@
         span 3
       h1 Propuesta comercial
 
-    .row.mb-5
-      .col-12.col-md-9.d-flex.align-items-center.bg_grad-03
+    .row.mb-5.justify-content-center
+      .col-12.col-md-12.col-lg-9.order-2.order-lg-1.d-flex.align-items-center.bg_grad-03
         div.p-4
           p Es el documento que entrega un vendedor a un cliente realizando la presentación de la empresa, se referencia la información relevante del producto y se definen las características y condiciones (en caso de que aplique) que tiene la compañía para la venta de sus bienes/servicios. Es importante aclarar que las propuestas comerciales son muy utilizadas en ventas mayoristas y en ventas empresariales/ institucionales, ya que en ventas al cliente final o al detal (por unidades) el proceso es un poco más informal dado que no suele mediar una propuesta, puesto que el vendedor presenta su portafolio esperando una aceptación rápida por parte del cliente.
           p.mb-0 La propuesta comercial es importante por varias razones: <b>formaliza el proceso comercial</b>, es decir, muestra estructura por parte de la empresa y el vendedor; <b>sirve de soporte</b> para cada una de las partes (empresa- cliente) en el momento de tener inquietudes respecto a lo ofrecido/adquirido y permite ser una <b>herramienta de comparación</b> entre alternativas por parte del cliente.
-      .col-12.col-md-3
+      .col-12.col-md-8.col-lg-3.order-1.order-lg-2.mb-4
         figure
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
     
     .row.mb-5.justify-content-center(data-aos="flip-up")
-      .col-12.col-md-8
+      .col-12.col-md-12.col-lg-8
         .cajon.bgr_23.p-4
           p.mb-0 Respecto a la propuesta comercial es importante referenciar que el rol (cargo) responsable de realizarla es el vendedor, no obstante, en algunas empresas muy organizadas cuentan con <em>templates</em> (plantillas) o proformas, las cuales se crean para estandarizar y facilitar la labor comercial.
     
     p.mb-5 A continuación vea los  elementos sugeridos para una propuesta comercial:
 
     .row.justify-content-center(data-aos="flip-left")
-      .col-12.col-md-6
+      .col-12.col-md-6.col-lg-4
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .tarjeta.bgr_31.p-2.p-md-4.mb-5
           SlyderA(tipo="b")
             .row.p-3
@@ -54,12 +54,12 @@
                 p Especificar nombres y apellidos completos, cargo, número telefónico de contacto y email corporativo (es decir, no el personal sino aquel de la empresa).
     
     .row.justify-content-center(data-aos="flip-up")
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .row.mb-5.bgr_7.p-3
           .col-12.col-md-2
             figure.d-flex.justify-content-center
               img.img100(src='@/assets/curso/tema1/t1-8.svg', alt='Texto que describa la imagen')
-          .col-12.col-md-10
+          .col-12.col-md-12.col-lg-10
             p.mb-0.text-bold Para recordar
             p.mb-0 Como consejos adicionales se sugiere firmar la propuesta, numerar las páginas de la propuesta, incorporar el logo de la empresa como encabezado (en caso que la empresa no tenga papel membrete, revisar muy bien la ortografía). 
 

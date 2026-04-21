@@ -221,22 +221,23 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardila, E. y Sastoque, F. (1984) Técnica de ventas: el producto.  SENA.',
+        'Ardila, E. y Sastoque, F. (1984). <em>Técnica de ventas: el producto.</em>  SENA.',
       link: 'https://repositorio.sena.edu.co/handle/11404/1896',
     },
     {
       referencia:
-        'Kotler, P. & Armstrong, G. (2007). Marketing, versión para Latinoamérica. Decimoprimera edición. Pearson Educación.',
+        'Kotler, P. & Armstrong, G. (2007). <em>Marketing, versión para Latinoamérica. Decimoprimera edición. Pearson Educación.</em>',
       link: '',
     },
     {
-      referencia: 'Navarro, M. (2012). Técnicas de ventas. Red Tercer Milenio.',
+      referencia:
+        'Navarro, M. (2012). <em>Técnicas de ventas. Red Tercer Milenio.</em>',
       link:
         'https://www.academia.edu/22896902/T%C3%A9cnicas_de_ventas_MARIANA_ELIZABETH_NAVARRO_MEJIA',
     },
     {
       referencia:
-        'Secretaria Distrital de Desarrollo Económico de Bogotá – Cámara de Comercio de Bogotá. (2010). Cartilla práctica Etiqueta empresarial. Editorial Kimpres.',
+        'Secretaria Distrital de Desarrollo Económico de Bogotá – Cámara de Comercio de Bogotá. (2010). <em>Cartilla práctica Etiqueta empresarial. Editorial Kimpres.</em>',
       link:
         'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/1172/4614_cartilla_etiquetaempresarial.pdf?sequence=1&isAllowed=y',
     },
@@ -372,4 +373,10 @@ export default {
       ],
     },
   ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
+  },
 }

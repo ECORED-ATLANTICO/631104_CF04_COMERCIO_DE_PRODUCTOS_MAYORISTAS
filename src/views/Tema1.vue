@@ -67,8 +67,8 @@
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-7.svg", alt="La figura muestra las 4 P del mercadeo.")
         figcaption Nota. SENA, 2026
     
-    .row.justify-content-center
-      .col-12.col-md-10
+    .row.justify-content-center.align-items-center
+      .col-12.col-md-12.col.lg-10
         .row.mb-5.bgr_7.p-3
           .col-12.col-md-2
             figure.d-flex.justify-content-center
@@ -134,45 +134,46 @@
 
     p En el comercio mayorista los procesos de ventas suelen estar asociados principalmente a productos tangibles, es por ello que es necesario ahondar un poco en esta temática, y dado que los productos tienen características particulares y específicas, según su comportamiento y uso se define la siguiente clasificación para los tangibles:
 
-    p <b>Productos de consumo:</b> hacen referencia a los bienes y servicios que serán usados para el propio beneficio, es decir, para satisfacer alguna necesidad asociada a la persona o al grupo familiar de quien los adquiere. Estos productos de consumo, a su vez, se clasifican en: 
+    p.mb-5 <b>Productos de consumo:</b> hacen referencia a los bienes y servicios que serán usados para el propio beneficio, es decir, para satisfacer alguna necesidad asociada a la persona o al grupo familiar de quien los adquiere. Estos productos de consumo, a su vez, se clasifican en: 
 
-    .row.mb-5.justify-center
-      .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
+    .row.justify-content-center.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-md-3.p-xl-5.my-5.my-md-2
-              p.mb-5.text-bold Conveniencia
-              p.mb-0 Son aquellos que se compran cotidianamente, no requieren de mucho esfuerzo y la variable precio suele influir altamente como decisor de la compra. Ejemplos: leche, huevos, cepillo de dientes, cita al odontólogo.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15-1.png')})`}")
-      .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5.mb-4.text-center Conveniencia
+              p.mb-2.text-center Son aquellos que se compran cotidianamente, no requieren de mucho esfuerzo y la variable precio suele influir altamente como decisor de la compra. Ejemplos: leche, huevos, cepillo de dientes, cita al odontólogo.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}")
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-md-3.p-xl-5.my-5.my-md-2
-              p.mb-5.text-bold De comparación
-              p.mb-0  Tiene un proceso de compra más planeado, se incluyen variables adicionales en la elección del bien. Ejemplos: lavadora, nevera, llantas, carro.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16-1.png')})`}")
-      .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5.mb-4.text-center De comparación
+              p.mb-2.text-center Tiene un proceso de compra más planeado, se incluyen variables adicionales en la elección del bien. Ejemplos: lavadora, nevera, llantas, carro.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}")
+      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-md-3.p-xl-5.my-5.my-md-2
-              p.mb-5.text-bold Especialidad
-              p.mb-0 Constituye aquellos bienes y servicios en los que hay un proceso riguroso de búsqueda de opciones y hay poco interés en sustituir el producto, ya sea por términos de marca o aspiracionales. Con frecuencia están relacionados con bienes de lujo, de tecnología. Ejemplo: perfumes, relojes de marca, celulares.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-17.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-17-1.png')})`}")
-      .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-xl-0
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5.mb-4.text-center Especialidad
+              p.mb-2.text-center Constituye aquellos bienes y servicios en los que hay un proceso riguroso de búsqueda de opciones y hay poco interés en sustituir el producto, ya sea por términos de marca o aspiracionales. Con frecuencia están relacionados con bienes de lujo, de tecnología. Ejemplo: perfumes, relojes de marca, celulares.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-17.png')})`}")
+      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-md-3.p-xl-5.my-5.my-md-2
-              p.mb-5.text-bold No buscados
-              p.mb-0 Son aquellos bienes y servicios de los cuales no se conoce mucho, hay aparentemente poco interés en ellos; sin embargo, cuando aparecen frente al posible comprador pueden despertar el interés. Ejemplo: seguros todo riesgo.  
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-18.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-18-1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5.mb-4.text-center No buscados
+              p.mb-2.text-center Son aquellos bienes y servicios de los cuales no se conoce mucho, hay aparentemente poco interés en ellos; sin embargo, cuando aparecen frente al posible comprador pueden despertar el interés. Ejemplo: seguros todo riesgo.  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-18.png')})`}")
+
+      
     
     p.mb-5 <b>Productos de producción:</b> en esta clasificación se incluyen todos los bienes que serán utilizados para procesarlos o transformarlos usualmente con fines comerciales. Los productos de producción se clasifican en: 
 
@@ -222,9 +223,9 @@
           h5 Tabla 1
           span Algunas monedas de circulación mundial.
 
-        .tabla-a.color-acento-contenido.mb-5.modif_24
+        .tabla-b.color-acento-botones.mb-5
           table.bgr_11
-            caption Nota. Relación de factores en la manipulación de mercancías o pedidos.   
+            caption(style="font-weight: normal;") Nota. Relación de factores en la manipulación de mercancías o pedidos.   
             thead
               tr
                 th(style="width:25%") Moneda
@@ -283,7 +284,7 @@
     p.mb-5 En las ventas mayoristas la variable precio cobra alta relevancia, dado que se realizan ventas por volumen, es decir, en grandes cantidades y a pesar de que los vendedores suelen trabajar con listas de precios  (herramientas en donde se describen cuáles son los precios unitarios, es decir, ya se tiene determinado cuál es el precio para cada producto), es importante que un vendedor sepa cómo definir el precio, dado que dependiendo del tipo de venta que se realice puede verse en la necesidad de calcular el precio de un producto. 
 
     .row.mb-5.justify-content-center(data-aos="zoom-out-up")
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .row.mb-5.p-4.bgr_15
           p.text.bold La fórmula para el cálculo del precio es: 
           .col-12.col-lg-4.mb-3.mb-lg-0
@@ -315,10 +316,10 @@
             p.mb-0 En este ejercicio es importante tener en cuenta que en las ventas mayoristas cada peso cuenta, por lo que en este tipo de escenarios debe contemplarse incluso los decimales, dado que como son ventas por volumen cada peso impacta la negociación total.
 
     .row.mb-5
-      .col-12.col-md-5
+      .col-12.col-md-12.col-lg-5
         p.mb-0.text-bold Descuentos en precios
         p Los descuentos son disminuciones en los precios de lista (precios de referencia o precios base) que concede la empresa a sus clientes, dicho en sentido matemático son porcentajes (%) que establecen las organizaciones según su estructura de costos, con el objetivo general de generar más ventas. Se realizan como consecuencia de negociaciones puntuales, necesidad de salir de inventarios, lanzamiento de productos o captación de nuevos clientes o mercados.
-      .col-12.col-md-7
+      .col-12.col-md-12.col-lg-7
         .cajon.bgr_16.p-4
           p <b>¿Cómo se calcula un descuento?</b> aplicando una fórmula sencilla, siempre partiendo que se conocen dos datos: <b>el precio base (precio del bien) y el porcentaje de descuento a aplicar.</b>
           p.text-bold    Descuento (D) = Precio del producto % de descuento | Precio con descuento (Pd) = Precio del producto - descuento
@@ -331,7 +332,7 @@
               img.img140(src='@/assets/curso/tema1/t1-26.svg', alt='Texto que describa la imagen')
           .col-12.col-lg-7.p-4 
             p.mb-0 Para mejor entendimiento se muestra el siguiente ejemplo: el precio base (de lista) de una memoria USB es de $50.000, se establece un descuento del 10%, ¿cuál será el precio que el vendedor mayorista le debe informar al cliente luego de aplicado el descuento?
-          .col-12.col-lg-3.mb-3.mb-lg-0.text-center
+          .col-12.col-lg-3.mb-3.mb-lg-0.text-start
             h3.colr_2 D = 
               span.colr_3 $50.000 * 10%
             h3.colr_2 D = 
@@ -355,27 +356,27 @@
             p.mb-0 Son aquellos que tienen como finalidad obtener el pago del dinero por parte del cliente a la mayor brevedad posible, ya que esto representa para la empresa capital de trabajo, es decir, los recursos con los que debe contar la organización para poder operar (ya sea para producir el bien o prestar el servicio, según sea el caso). Lo anterior, bajo la lógica a <b>menor tiempo de pago mayor descuento.</b>  Los descuentos financieros con mayor usabilidad son:
 
     .row.mb-5.justify-content-center
-      .col-12.col-lg-3.d-flex.align-items-center.order-3.order-md-1
+      .col-12.col-lg-3.order-3.order-lg-1.d-flex.align-items-center
         div.position-relative.mb-3.mb-md-5
           .modif_2
           p.mb-0 #[strong C. Descuento por pago en efectivo o transferencia:]  
           | Están sustentados en la premisa de maximizar la rentabilidad, ya que al utilizar el sistema financiero a través de tarjetas las empresas pagan un porcentaje de comisión al sistema financiero lo que representa un menor valor neto.
-      .col-10.col-sm-8.col-lg-4.order-1.order-md-2.mb-3.mb-md-0
+      .col-10.col-sm-8.col-lg-4.order-1.order-lg-2.mb-3.mb-md-0
         figure
           img(src='@/assets/curso/tema1/t1-28.svg', alt='Texto que describa la imagen')
-      .col-12.col-lg-3.d-flex.align-items-center.order-2.order-md-3
+      .col-12.col-lg-3.order-2.order-lg-3.d-flex.align-items-center
         div
           div.position-relative.mb-3.mb-md-5
             .modif_3
             p.mb-0 #[strong A. Descuento financiero por pago de contado:]  
             | Es el porcentaje que se concede cuando el cliente realiza pago inmediato o contra entrega.
-          div.position-relative.mb-3.mb-md-0
+          div.position-relative.mb-3.mb-md-5
             .modif_4
             p.mb-0 #[strong B. Descuento financiero por pronto pago:]  
             | Consiste en propiciar a través del estímulo del descuento, que antes que finalice el tiempo negociado con el cliente, éste pague la factura.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .bgr_17.p-4
           p.mb-0.text-bold Ejemplo
           p Una empresa envía su pedido por valor de $100.000 y tiene negociado con su cliente que las facturas deben ser canceladas a 90 días. Asimismo, establece que si cancela a 60 días le otorgarán un descuento del 2% y si paga a 30 días le dará un descuento del 4%.
@@ -445,14 +446,14 @@
 
 
     .row.justify-content-center
-      .col-12.col-md-5.mb-5.mb-md-0
+      .col-12.col-md-6.col-lg-5.mb-5.mb-md-0
         .bgr_20.p-4.h-100
           span.mb-2.text-bold.etiqueta Ejemplo 1
           p.mb-0 Cuando se le indica al cliente que: 
           p.mb-0 1 docena de la unidad tendrá un precio de $10.000 
           p.mb-0 2 docenas se le dará un descuento del 20%.
           p.mb-0 Se está aplicando un descuento por volumen.
-      .col-12.col-md-5
+      .col-12.col-md-6.col-lg-5
         .bgr_20.p-4
           span.mb-2.text-bold.etiqueta Ejemplo 2
           p.mb-0 Cuando se encuentra que en verano las chaquetas tienen descuentos permanentes hace relación a descuentos estacionales y cuando un almacén indica que por cierre de temporada tendrá descuento del 40% en sus prendas se está referenciando un precio de oferta.
@@ -498,21 +499,21 @@
       .col-lg-8
         h5 Canal de distribución indirecto
         ul.lista-ul--color
-          li.mb-2
-            i.fas.fa-paper-plane.colr_3
-            | Cuando la empresa requiere o elige tener intermediarios en la cadena de distribución.
-          li.mb-2
-            i.fas.fa-paper-plane.colr_3
-            | La ventaja de este canal es que la empresa llega a mayor cantidad de clientes. 
-          li.mb-2
-            i.fas.fa-paper-plane.colr_3
-            | La desventaja es que los costos se incrementan y por ende, puede incrementar el precio del producto.  
-          li.mb-2
-            i.fas.fa-paper-plane.colr_3
-            | Un canal corto cuando solo interviene un intermediario entre la empresa y el cliente.  
-          li.mb-2
-            i.fas.fa-paper-plane.colr_3
-            | Un canal largo cuando se involucran más de dos intermediarios. En este orden de ideas, las ventas mayoristas, usualmente utilizan canales largos, ya que suelen estar presente varios intermediarios.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_3.me-2
+            span Cuando la empresa requiere o elige tener intermediarios en la cadena de distribución.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_3.me-2
+            span La ventaja de este canal es que la empresa llega a mayor cantidad de clientes.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_3.me-2
+            span La desventaja es que los costos se incrementan y por ende, puede incrementar el precio del producto.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_3.me-2
+            span Un canal corto cuando solo interviene un intermediario entre la empresa y el cliente.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.colr_3.me-2
+            span Un canal largo cuando se involucran más de dos intermediarios. En este orden de ideas, las ventas mayoristas usualmente utilizan canales largos, ya que suelen estar presentes varios intermediarios.
       .col-sm-8.col-lg-4
         figure
           img(src="@/assets/curso/tema1/41.png", alt="")
@@ -526,7 +527,7 @@
     P.mb-5 A nivel de mercadeo se distinguen dos estrategias que pueden ser complementarias, ya que dependiendo del tipo de producto y de los recursos económicos de las empresas estas son:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-5.mb-3.mb-md-0(data-aos="fade-right")
         p.text-bold.mb-0.etiqueta_1.text-center.p-3 Estrategia de distribución <em>pull</em> (jalar) 
         figure
           img(src='@/assets/curso/tema1/t1-32.png', alt='Texto que describa la imagen')
@@ -534,7 +535,7 @@
           p Los esfuerzos se enfocan en llegar al cliente final, para que este acuda a los distribuidores a solicitar el producto; cuando esta estrategia es operada con éxito pueden ocurrir dos cosas: 
           p <b>01.</b> Que los distribuidores que no tienen el producto en su portafolio lo incluyan. 
           p.mb-0 <b>02.</b> Que se tengan mayores ventas si el producto ya hace parte de lo que ofrece el distribuidor.
-      .col-12.col-md-5(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-5(data-aos="fade-left")
         p.text-bold.mb-0.etiqueta_2.text-center.p-3 Estrategia de distribución <em>push</em> (empujar)  
         figure
           img(src='@/assets/curso/tema1/t1-33.png', alt='Texto que describa la imagen')
@@ -547,23 +548,23 @@
       .h2 1.4 Promoción
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-4(data-aos="fade-right")
+      .col-12.col-md-8.col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-34.png', alt='Texto que describa la imagen')
-      .col-12.col-md-6.p-4(data-aos="fade-left")
+      .col-12.col-md-12.col-lg-6.p-4(data-aos="fade-left")
         p Llamada actualmente desde la perspectiva de mercadeo comunicación, es la última variable de estudio dentro del <em>marketing mix</em> y hace alusión a la forma como la empresa plantea sus estrategias para comunicar su marca y productos a los clientes, en el siguiente recurso se explica a más profundidad:
         p.mb-0.text-bold La promoción suele ser una variable bastante densa, dado que dentro de ella tiene sus propios componentes, denominados en conjunto “mezcla de comunicación”.
 
     TabsB.color-acento-contenido.modif_15(data-aos="zoom-out-down")
       .py-4.py-md-5(titulo="Propaganda" :icono="require('@/assets/curso/tema1/t1-25.svg')")
         .row.justify-content-center
-          .col-md-10.mb-4.mb-md-0
+          .col-md-12.col-lg-10.mb-4.mb-md-0
             p.mb-0.text-bold Propaganda
             p Es similar a la publicidad, porque consiste en la forma impersonal de estimular la demanda o de influir en la opinión o actitud de un grupo hacia la empresa, a través de una comunicación en medios masivos, la gran diferencia es que usualmente no es pagada por la empresa u organización que se beneficia con ella. Usualmente la propaganda tiene un tinte más asociado a religión, política, opiniones o doctrinas, y no tiene un tinte tan comercial como sí lo tiene la publicidad.
             p.mb-0.text-bold Precio = COP $150 / (1- 0.40) = COP $250.
             p.text-bold Según el resultado obtenido cuando los vendedores vayan a cada farmacia deben vender cada mascarilla en COP $250.
             .row.mt-5.justify-content-center
-              .col-12.col-md-10
+              .col-12.col-md-12.col-lg-10
                 .cajon.bgr_23.p-4
                   p.text-bold Entre las características de la propaganda se encuentran:
                   p.mb-0 <b>a.</b> Suelen ser mensajes repetitivos con el fin de generar recordación. 
@@ -571,7 +572,7 @@
                   p.mb-0 <b>c.</b> Se utilizan recursos llamativos, con el fin de llamar la atención y los mensajes se suelen relacionar con situaciones de impacto en la comunidad, con el fin de generar empatía entre quienes recepcionan el mensaje.
       .py-4.py-md-5(titulo="Publicidad" :icono="require('@/assets/curso/tema1/t1-35.svg')")
         .row.justify-content-center
-          .col-md-10.mb-4.mb-md-0
+          .col-md-12.col-lg-10.mb-4.mb-md-0
             p.mb-0.text-bold Publicidad
             p Es quizá lo más utilizado por las empresas dentro de la promoción, ya que según la estrategia puede dar alcance a cuatro objetivos: informar (dar a conocer algo), persuadir (disuadir para que se realice una acción) o recordar (mantener en la mente de los clientes una marca o un producto). Es un mecanismo de comunicación no personal que es pagado por una empresa con el fin de presentar y promocionar productos. El reto de la publicidad consiste en llegar a la mayor cantidad de personas al costo más bajo posible. 
             .row.mb-3(data-aos="zoom-in-up")
@@ -606,13 +607,13 @@
                       p.text-bold Publicidad TTL (<em>Through the line</em>)    
                       | Enfocado en unir la publicidad ATL con la BTL, de tal forma que se genere integración en las comunicaciones, allí se aplican ambos tipos de publicidad en el mismo momento.
           .row.mt-5.justify-content-center
-            .col-12.col-md-8
+            .col-12.col-md-12.col-lg-8
               .cajon.bgr_23.p-4
                 p.mb-0.text-bold Ejemplo:
                 p.mb-0 Si la empresa realiza una publicación en una revista de circulación nacional está realizando publicidad ATL; sin embargo, si lanza un concurso en un centro comercial estará realizando publicidad BTL, y si en el anuncio de la revista incorpora un cupón para ser diligenciado por los clientes y que participen en la rifa de un viaje están aplicando TTL, ya que se valen de un medio masivo (revista) para realizar una campaña dirigida (el concurso).
       .py-4.py-md-5(titulo="Relaciones públicas" :icono="require('@/assets/curso/tema1/t1-36.svg')")
         .row.justify-content-center
-          .col-md-10.mb-4.mb-md-0
+          .col-md-12.col-lg-10.mb-4.mb-md-0
             p.mb-0.text-bold Relaciones públicas
             p Conocidas por sus siglas como RRPP, son todas aquellas acciones encaminadas en entablar buenas relaciones con los diversos grupos de interés de la empresa (el Estado, accionistas, periodistas, proveedores, distribuidores, entre otros), con el fin principal de crear buena imagen. Adicional a la imagen, las RRPP pueden ayudar a generar buenas relaciones con la prensa, ayudar en el posicionamiento de productos, despertar el interés por una marca, influir en grupos específicos e incluso generar presión en determinados momentos.
             p.mb-0 Las herramientas de las relaciones públicas son las publicaciones, los eventos, los patrocinios, los discursos y entrevistas, las noticias y comunicados.
