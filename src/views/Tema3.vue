@@ -55,10 +55,10 @@
     
     .row.justify-content-center(data-aos="flip-up")
       .col-12.col-md-12.col-lg-10
-        .row.mb-5.bgr_7.p-3
-          .col-12.col-md-2
-            figure.d-flex.justify-content-center
-              img.img100(src='@/assets/curso/tema1/t1-8.svg', alt='Texto que describa la imagen')
+        .row.mb-5.bgr_7.p-3.justify-content-center.align-items-center
+          .col-4.col-md-2
+            figure
+              img(src='@/assets/curso/tema1/t1-8.svg', alt='Texto que describa la imagen')
           .col-12.col-md-12.col-lg-10
             p.mb-0.text-bold Para recordar
             p.mb-0 Como consejos adicionales se sugiere firmar la propuesta, numerar las páginas de la propuesta, incorporar el logo de la empresa como encabezado (en caso que la empresa no tenga papel membrete, revisar muy bien la ortografía). 

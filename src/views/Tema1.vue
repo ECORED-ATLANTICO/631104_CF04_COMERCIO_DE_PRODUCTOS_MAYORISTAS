@@ -546,10 +546,10 @@
       .h2 1.4 Promoción
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-8.col-lg-4(data-aos="fade-right")
+      .col-12.col-md-8.col-lg-6.col-xl-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-34.png', alt='Texto que describa la imagen')
-      .col-12.col-md-12.col-lg-6.p-4(data-aos="fade-left")
+      .col-12.col-md-12.col-lg-12.col-xl-6.p-4(data-aos="fade-left")
         p Llamada actualmente desde la perspectiva de mercadeo comunicación, es la última variable de estudio dentro del <em>marketing mix</em> y hace alusión a la forma como la empresa plantea sus estrategias para comunicar su marca y productos a los clientes, en el siguiente recurso se explica a más profundidad:
         p.mb-0.text-bold La promoción suele ser una variable bastante densa, dado que dentro de ella tiene sus propios componentes, denominados en conjunto “mezcla de comunicación”.
 
