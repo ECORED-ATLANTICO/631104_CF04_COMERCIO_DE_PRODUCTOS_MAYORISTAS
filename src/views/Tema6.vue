@@ -61,25 +61,25 @@
             tbody
               tr
                 td.bgr_12.text-bold.text-center 
-                  p.mb-0.text-bold Venta presencial
-                td.ps-3.ps-md-4.bgr_13 Generar mayor cercanía con el cliente
+                  p.mb-0.text-bold Venta presencial.
+                td.ps-3.ps-md-4.bgr_13 Generar mayor cercanía con el cliente.
                 td.bgr_14.text-bold.text-center 
-                  p.mb-0 Representan mayores costos para la empresa
+                  p.mb-0 Representan mayores costos para la empresa.
               tr
                 td.bgr_12.text-bold.text-center 
-                  p.mb-0.text-bold Venta telefónica
-                td.ps-3.ps-md-4.bgr_13 Tienen un tiempo rápido de cierre
+                  p.mb-0.text-bold Venta telefónica.
+                td.ps-3.ps-md-4.bgr_13 Tienen un tiempo rápido de cierre.
                 td.bgr_14.text-bold.text-center 
-                  p.mb-0 En ocasiones generan desconfianza entre los clientes
+                  p.mb-0 En ocasiones generan desconfianza entre los clientes.
               tr
                 td.bgr_12.text-bold.text-center 
-                  p.mb-0.text-bold Venta en canales digitales
-                td.ps-3.ps-md-4.bgr_13 Tienen los menores costos frente a las ventas presenciales y telefónicas
+                  p.mb-0.text-bold Venta en canales digitales.
+                td.ps-3.ps-md-4.bgr_13 Tienen los menores costos frente a las ventas presenciales y telefónicas.
                 td.bgr_14.text-bold.text-center 
-                  p.mb-0 No aplican para todo tipo de clientes, dada la brecha digital (clientes que no tienen el conocimiento o la confianza para comprar en medios digitales)
+                  p.mb-0 No aplican para todo tipo de clientes, dada la brecha digital (clientes que no tienen el conocimiento o la confianza para comprar en medios digitales).
 
     p.text-bold Tipos de ventas según el cliente al cual se dirigen los productos 
-    p Este concepto de tipos de ventas según el tipo de cliente comenzó con fuerza en el comercio electrónico; sin embargo, actualmente es utilizado también en el contexto offline. Las ventas <em>Business to Business</em> (conocidas como B2B) son aquellas que realiza una empresa a otra empresa, las ventas <em>Business to Consumer</em> (conocidas como B2C) son las que realiza una empresa al consumidor final, las ventas <em>Business to Government</em> (B2G) son aquellas en las que una empresa vende sus productos al gobierno o a entidades públicas. 
+    p Este concepto de tipos de ventas según el tipo de cliente comenzó con fuerza en el comercio electrónico; sin embargo, actualmente es utilizado también en el contexto #[em offline]. Las ventas <em>Business to Business</em> (conocidas como B2B) son aquellas que realiza una empresa a otra empresa, las ventas <em>Business to Consumer</em> (conocidas como B2C) son las que realiza una empresa al consumidor final, las ventas <em>Business to Government</em> (B2G) son aquellas en las que una empresa vende sus productos al gobierno o a entidades públicas. 
     p.mb-5 A modo de ejemplo, se tienen las siguiente situaciones, una empresa de telecomunicaciones vende sus productos a los clientes hogares y a las empresas, en este caso, se indica que dicha compañía vende bajo tipos de ventas B2C y B2B; en un segundo caso, una empresa importadora vende al por mayor equipos de cómputo a distribuidores, por tanto, esta empresa realiza ventas exclusivamente B2B; en un tercer caso, una empresa constructora está dedicada a la construcción de vías, por lo que su cliente es el Estado, en este sentido realiza ventas B2G. 
 
     figure.mb-5(data-aos="zoom-in-up")
@@ -140,7 +140,7 @@
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .bgr_37.p-4.h-100
           p.text-bold Ventajas
-          p.mb-0 Tiene la cámara con mayor resolución del mercado, tiene garantía de un año (que otros no tienen), tiene un seguro antirrobo por seis meses, tiene aplicaciones de chat y música incluidas sin costo adicional.
+          p.mb-0 Tiene la cámara con mayor resolución del mercado, tiene garantía de un año (que otros no tienen), tiene un seguro antirrobo por seis meses, tiene aplicaciones de #[em chat] y música incluidas sin costo adicional.
       .col-md-6.col-lg-4
         .bgr_37.p-4.h-100
           p.text-bold Beneficios
@@ -293,7 +293,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema6/t6-18.png')})`}"
           )
           .bloque-texto-g__texto.p-4.p-lg-4
-            p.mb-0.text-bold Simple, invaluable, alineado con sus intereses, de prioridad 
+            p.text-bold Simple, invaluable, alineado con sus intereses, de prioridad 
             p.mb-0 la técnica de ventas más conocida como SNAP (en inglés <em>simple, invaluable, align and priority</em>) es un modelo que se enfoca en la efectividad, ya que se centra en “ponerse en la camiseta del cliente” y está dirigido principalmente a las personas que tienen la facultad de decidir si hacen la compra, observe a continuación los elementos importantes: 
     
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
@@ -444,7 +444,7 @@
               type="application/pdf"
               @mouseover="mostrarIndicador = false"
             )
-              span Ver más
+              span Enlace PDF
               i.fas.fa-file-pdf
               .indicador--click(v-if="mostrarIndicador")
     

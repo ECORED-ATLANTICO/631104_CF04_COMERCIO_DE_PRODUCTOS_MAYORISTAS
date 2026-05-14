@@ -409,38 +409,33 @@
               .col-md-12.px-4
                 .position-relative
                   .modif_6
-                  p #[strong B. A modo de ejemplo y retomado el caso previo en la venta de computadores:]  
-                  p El precio si en el colegio compran 10 equipos de cómputo, debería ser alto si en vez de 10 compra 100.
-            .row.p-3
-              .col-md-12.px-4
-                .position-relative
-                  .modif_7
-                  p #[strong C. Descuento por bonificación de producto:]  
+                  p #[strong B. Descuento por bonificación de producto:]  
                   p Si el cliente adquiere determinado producto se le otorga un descuento si adquiere otro en la misma transacción.
             .row.p-3
               .col-md-12.px-4
                 .position-relative
-                  .modif_8
-                  p #[strong D. Bonificación promocional:]  
+                  .modif_7
+                  p #[strong C. Bonificación promocional:]  
                   p Se aplican a los distribuidores como una forma de impulsar que estos participen en programas publicitarios que tengan por fin promocionar la marca o el producto.
             .row.p-3
               .col-md-12.px-4
                 .position-relative
-                  .modif_9
-                  p #[strong E. Descuentos estacionales:]  
+                  .modif_8
+                  p #[strong D. Descuentos estacionales:]  
                   p Conocidos también como descuentos de temporada, se entregan en épocas en las cuales hay baja rotación del producto.
             .row.p-3
               .col-md-12.px-4
                 .position-relative
-                  .modif_10
-                  p #[strong F. Descuentos de canal:]  
+                  .modif_9
+                  p #[strong E. Descuentos de canal:]  
                   p Son aquellos que tienen por fin fidelizar a los distribuidores, por el hecho de que ellos son quienes facilitan mayor acceso al producto.
             .row.p-3
               .col-md-12.px-4
                 .position-relative
-                  .modif_15
-                  p #[strong G. Precio de oferta:]  
+                  .modif_10
+                  p #[strong F. Precio de oferta:]  
                   p Son los porcentajes que aplican las empresas a sus productos para salir de sus inventarios.
+            
 
 
     .row.justify-content-center
