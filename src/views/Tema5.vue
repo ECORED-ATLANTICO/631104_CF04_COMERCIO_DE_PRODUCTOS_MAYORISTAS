@@ -71,7 +71,7 @@
           ul.lista-ul--color
             li.mb-2.d-flex
               i.fas.fa-paper-plane.colr_3
-              | Se estima que más de mil millones de personas en el mundo viven con discapacidad, o sea, alrededor del 15% de la población mundial.
+              | Se estima que más de mil millones de personas en el mundo viven con discapacidad, o sea, alrededor del 15 % de la población mundial.
             li.mb-2.d-flex
               i.fas.fa-paper-plane.colr_3
               | En promedio, las personas con discapacidad y las familias con un miembro con discapacidad tienen mayores tasas de privaciones.
@@ -83,7 +83,7 @@
           img.mb-4.mb-lg-5(src='@/assets/curso/tema5/t5-3.png', alt='Texto que describa la imagen')
 
     p.text-bold Tipos de discapacidad
-    p.mb-5 Es relevante entender que existen diferentes tipologías de discapacidad. A continuación se detallan los tipos de discapacidad que más participación tienen dentro de la población:
+    p.mb-5 Es relevante entender que existen diferentes tipologías de discapacidad. A continuación, se detallan los tipos de discapacidad que más participación tienen dentro de la población:
 
     SlyderF(columnas="col-lg-12 col-xl-12")
       .tarjeta.bgr_30.p-4.p-xl-5
@@ -180,7 +180,7 @@
     p.mb-5 A nivel nacional (Colombia) existen varios lineamientos, leyes, decretos y marcos de buenas prácticas asociados a la inclusión y a la discapacidad.  A continuación se exponen algunos de ellos:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_2(data-aos="flip-up")
-      .row(titulo="1. La carta Magna en su artículo 7").align-items-center.justify-content-center
+      .row(titulo="1. La Carta Magna en su artículo 7").align-items-center.justify-content-center
         .col-lg-8.mb-4.mb-lg-0.px-5
           p Enuncia que “El Estado reconoce y protege la diversidad étnica y cultural de la nación colombiana”, aquí se evidencia cómo en Colombia desde el año 1991 se contemplaba la importancia de la inclusión, dado que la diversidad es una de las variables que apalancan la aplicación de la inclusión.
         .col-lg-4

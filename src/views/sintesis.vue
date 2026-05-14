@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Mapa conceptual sobre ventas y herramientas comerciales. En la parte superior se presenta el concepto de ventas y se explica que son importantes porque constituyen la fuente de ingresos para las empresas. Luego se indica que los responsables de realizar las ventas son los vendedores. A continuación, se muestran las herramientas que utilizan los vendedores: etiqueta empresarial, mezcla de mercadeo, propuesta comercial y técnicas de ventas. La mezcla de mercadeo se divide en cuatro variables: producto, precio, plaza y promoción o comunicación. Finalmente, se presentan dos técnicas de ventas: Características, Ventajas y Beneficios (CVB) y Atención, Interés, Deseo y Acción (AIDA), así como Situación, Problema, Implicación y Necesidad (SPIN) y Situación, Invaluable, Alineado con los intereses y Prioridad (SNAP).")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
