@@ -54,7 +54,7 @@
               figure.d-flex.justify-content-center
                 img.img300(src='@/assets/curso/tema1/t1-6.png', alt='Texto que describa la imagen')
             .col-12.col-md-8.col-lg-7.p-4.d-flex.align-items-center
-              p.mb-0 Y es en este contexto del mercado donde surge la mezcla de mercadeo (<em>marketing</em> mix en inglés) o las famosas cuatro P´s (producto, precio, plaza y promoción), la cual representa la base conceptual para la implementación de las estrategias de mercadeo, que fueron creadas por <b>Jerome McCarthy</b> alrededor del año <b>1970</b> y, son cuatro variables sobre las cuales se fundamenta el quehacer del proceso de mercadeo dentro de las empresas, en este sentido, el reto para las personas de mercadeo es encontrar la mejor combinación posible, asegurando que las cuatro P`s se incorporen en el día a día de la gestión comercial de la compañía.   
+              p.mb-0 Y es en este contexto del mercado donde surge la mezcla de mercadeo (<em>marketing mix</em> en inglés) o las famosas cuatro P´s (producto, precio, plaza y promoción), la cual representa la base conceptual para la implementación de las estrategias de mercadeo, que fueron creadas por <b>Jerome McCarthy</b> alrededor del año <b>1970</b> y, son cuatro variables sobre las cuales se fundamenta el quehacer del proceso de mercadeo dentro de las empresas, en este sentido, el reto para las personas de mercadeo es encontrar la mejor combinación posible, asegurando que las cuatro P`s se incorporen en el día a día de la gestión comercial de la compañía.   
     
     p.mb-5 Las variables (cuatro P´s) que conforman la mezcla de mercadeo son: 
 
@@ -63,8 +63,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Las 4 P del mercadeo
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/t1-7-mob.svg", alt="La figura muestra las 4 P del mercadeo.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-7.svg", alt="La figura muestra las 4 P del mercadeo.")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/t1-7-mob.svg", alt="La figura 1 muestra las 4P del mercadeo. En el centro aparece el concepto “4P marketing mix. Alrededor se presentan las cuatro variables del mercadeo: “promoción (comunicación)”, relacionada con la marca y la comunicación de la oferta de valor; “producto”, definido como aquello que se ofrece en el mercado; “precio”, entendido como el valor monetario de la transacción; y “plaza”, asociada a los canales de distribución y a la forma en que el producto llega al cliente.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-7.svg", alt="La figura 1 muestra las 4P del mercadeo. En el centro aparece el concepto “4P marketing mix. Alrededor se presentan las cuatro variables del mercadeo: “promoción (comunicación)”, relacionada con la marca y la comunicación de la oferta de valor; “producto”, definido como aquello que se ofrece en el mercado; “precio”, entendido como el valor monetario de la transacción; y “plaza”, asociada a los canales de distribución y a la forma en que el producto llega al cliente.")
         figcaption Nota. SENA, 2026
     
     .row.justify-content-center.align-items-center
@@ -111,21 +111,21 @@
         .row
           .col-lg-6.mb-4.mb-lg-0.p-4
             h4 Productos tipo marcas  
-            p Con la creciente relevancia de los conceptos aspiracionales y moda surgen las marcas como un tipo de producto más dentro del mercadeo. Hoy pensar en Nike, Adidas, Iphone, Samsung, Diesel, entre muchas otras, muestran cómo las marcas son clave para los procesos de mercadeo, llegando incluso al concepto de mercadear una marca.
+            p Con la creciente relevancia de los conceptos aspiracionales y moda surgen las marcas como un tipo de producto más dentro del mercadeo. Hoy pensar en Nike, Adidas, iPhone, Samsung, Diesel, entre muchas otras, muestran cómo las marcas son clave para los procesos de mercadeo, llegando incluso al concepto de mercadear una marca.
           .col-lg-6.p-4
             figure
               img(src='@/assets/curso/tema1/t1-12.png', alt='Texto que describa la imagen')
         .row
           .col-lg-6.mb-4.mb-lg-0.p-4
             h4 Productos tipo personas    
-            p Actualmente grandes figuras de la política, el deporte, el entretenimiento e incluso los YouTuber son ejemplos de cómo es posible mercadear una persona, por ejemplo, imagínese ¿cuánto cobra Sofía Vergara por ser la voz en una película de Disney?, ¿cuánto dinero genera Messi o Ronaldo por aparecer en un comercial?, ¿cuánto cobra un cantante de reguetón por autorizar el uso de su nombre en una colección de ropa?, la respuesta exacta no se sabe; sin embargo, sí se puede asegurar que son millones de dólares o euros (según sea el caso) y todo eso gracias al poder de su marca personal.
+            p Actualmente grandes figuras de la política, el deporte, el entretenimiento e incluso los #[em youtubers] son ejemplos de cómo es posible mercadear una persona, por ejemplo, imagínese ¿cuánto cobra Sofía Vergara por ser la voz en una película de Disney?, ¿cuánto dinero genera Messi o Ronaldo por aparecer en un comercial?, ¿cuánto cobra un cantante de reguetón por autorizar el uso de su nombre en una colección de ropa?, la respuesta exacta no se sabe; sin embargo, sí se puede asegurar que son millones de dólares o euros (según sea el caso) y todo eso gracias al poder de su marca personal.
           .col-lg-6.p-4
             figure
               img(src='@/assets/curso/tema1/t1-13.png', alt='Texto que describa la imagen')
         .row
           .col-lg-6.mb-4.mb-lg-0.p-4
             h4 Productos tipo lugares   
-            p Los sitios asociados a diferentes áreas temáticas (culturales, deportivos, religiosos, de entretenimiento) son también importantes para el mercadeo, ya que son valorados positivamente por los consumidores, quienes están dispuestos a pagar en algunos casos incluso importantes sumas de dinero por conocer o visitar dichos lugares. Algunos ejemplos son la entrada al museo del Louvre en Francia, entrada a La Bombonera en Argentina, entrada al Museo del Oro en Bogotá. 
+            p Los sitios asociados a diferentes áreas temáticas (culturales, deportivos, religiosos, de entretenimiento) son también importantes para el mercadeo, ya que son valorados positivamente por los consumidores, quienes están dispuestos a pagar en algunos casos incluso importantes sumas de dinero por conocer o visitar dichos lugares. Algunos ejemplos son la entrada al Museo del Louvre en Francia, entrada a La Bombonera en Argentina, entrada al Museo del Oro en Bogotá. 
           .col-lg-6.p-4
             figure
               img(src='@/assets/curso/tema1/t1-14.png', alt='Texto que describa la imagen')
@@ -219,7 +219,7 @@
       .col-xl-8
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Tabla 1
-          span Algunas monedas de circulación mundial.
+          span Algunas monedas de circulación mundial
 
         .tabla-b.color-acento-botones.mb-5
           table.bgr_11
@@ -299,7 +299,7 @@
             figure
               img(src='@/assets/curso/tema1/t1-23.png', alt='Texto que describa la imagen')
           .col-lg-5.mb-4.mb-lg-0
-            p La distribuidora Hermanos Jaramillo S.A.S. importa de China mascarillas (tapabocas) y el costo total de cada mascarilla después de pagarle a su proveedor chino y los aranceles (impuestos asociados) es de COP $150. Ellos proyectan vender sus mascarillas a las farmacias del departamento, esperando tener un margen del 40%, ¿cuál es el precio al cual los vendedores deben vender cada mascarilla?
+            p La distribuidora Hermanos Jaramillo S.A.S. importa de China mascarillas (tapabocas) y el costo total de cada mascarilla después de pagarle a su proveedor chino y los aranceles (impuestos asociados) es de COP $150. Ellos proyectan vender sus mascarillas a las farmacias del departamento, esperando tener un margen del 40 %, ¿cuál es el precio al cual los vendedores deben vender cada mascarilla?
             p.mb-0.text-bold Precio = COP $150 / (1- 0.40) = COP $250.
             p.text-bold Según el resultado obtenido cuando los vendedores vayan a cada farmacia deben vender cada mascarilla en COP $250.
       .py-4.py-md-5(titulo="Caso 2" :icono="require('@/assets/curso/tema1/t1-25.svg')")
@@ -308,7 +308,7 @@
             figure
               img(src='@/assets/curso/tema1/t1-24.png', alt='Texto que describa la imagen')
           .col-lg-5.mb-4.mb-lg-0
-            p Tecnología XYZ vende computadores a los colegios privados, para lo cual importa equipos de Corea del Sur. Para el mes de abril de 2022 tuvieron un costo total para cada computador de COP $1.200.000, esperando tener un margen del 28%. De acuerdo con esta información ¿cuál es el precio que debe cobrar el vendedor por cada computador en los colegios que visitan?
+            p Tecnología XYZ vende computadores a los colegios privados, para lo cual importa equipos de Corea del Sur. Para el mes de abril de 2022 tuvieron un costo total para cada computador de COP $1.200.000, esperando tener un margen del 28 %. De acuerdo con esta información ¿cuál es el precio que debe cobrar el vendedor por cada computador en los colegios que visitan?
             p.mb-0.text-bold Precio = COP $1.200.000 / (1- 0.28) = COP $1.666.666,67
             p.text-bold Según el resultado obtenido cuando los vendedores vayan a cada institución educativa deben vender cada equipo en COP $1.666.666,67. 
             p.mb-0 En este ejercicio es importante tener en cuenta que en las ventas mayoristas cada peso cuenta, por lo que en este tipo de escenarios debe contemplarse incluso los decimales, dado que como son ventas por volumen cada peso impacta la negociación total.
@@ -329,10 +329,10 @@
             figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema1/t1-26.svg', alt='Texto que describa la imagen')
           .col-12.col-lg-7.p-4 
-            p.mb-0 Para mejor entendimiento se muestra el siguiente ejemplo: el precio base (de lista) de una memoria USB es de $50.000, se establece un descuento del 10%, ¿cuál será el precio que el vendedor mayorista le debe informar al cliente luego de aplicado el descuento?
-          .col-12.col-lg-3.mb-3.mb-lg-0.text-start
+            p.mb-0 Para mejor entendimiento se muestra el siguiente ejemplo: el precio base (de lista) de una memoria USB es de $50.000, se establece un descuento del 10 %, ¿cuál será el precio que el vendedor mayorista le debe informar al cliente luego de aplicado el descuento?
+          .col-12.col-lg-3.mb-3.mb-lg-0.text-center
             h3.colr_2 D = 
-              span.colr_3 $50.000 * 10%
+              span.colr_3 $50.000 * 10 %
             h3.colr_2 D = 
               span.colr_3 $5.000
             h3.colr_2 Pd = 
@@ -377,7 +377,7 @@
       .col-12.col-md-12.col-lg-10
         .bgr_17.p-4
           p.mb-0.text-bold Ejemplo
-          p Una empresa envía su pedido por valor de $100.000 y tiene negociado con su cliente que las facturas deben ser canceladas a 90 días. Asimismo, establece que si cancela a 60 días le otorgarán un descuento del 2% y si paga a 30 días le dará un descuento del 4%.
+          p Una empresa envía su pedido por valor de $100.000 y tiene negociado con su cliente que las facturas deben ser canceladas a 90 días. Asimismo, establece que si cancela a 60 días le otorgarán un descuento del 2 % y si paga a 30 días le dará un descuento del 4 %.
           p.mb-0 Del ejemplo anterior se observa que si el cliente paga a 90 días deberá pagar una factura por valor de $100.000, si la paga a 60 días el monto es de $98.000 y si paga a 30 días deberá cancelar $96.000.
 
     .row.mb-5(data-aos="zoom-out-down").justify-content-center
@@ -448,13 +448,13 @@
         .bgr_20.p-4.h-100
           span.mb-2.text-bold.etiqueta Ejemplo 1
           p.mb-0 Cuando se le indica al cliente que: 
-          p.mb-0 1 docena de la unidad tendrá un precio de $10.000 
-          p.mb-0 2 docenas se le dará un descuento del 20%.
+          p.mb-0 1 docena de la unidad tendrá un precio de $10.000.
+          p.mb-0 2 docenas se le dará un descuento del 20 %.
           p.mb-0 Se está aplicando un descuento por volumen.
       .col-12.col-md-6.col-lg-5
         .bgr_20.p-4
           span.mb-2.text-bold.etiqueta Ejemplo 2
-          p.mb-0 Cuando se encuentra que en verano las chaquetas tienen descuentos permanentes hace relación a descuentos estacionales y cuando un almacén indica que por cierre de temporada tendrá descuento del 40% en sus prendas se está referenciando un precio de oferta.
+          p.mb-0 Cuando se encuentra que en verano las chaquetas tienen descuentos permanentes hace relación a descuentos estacionales y cuando un almacén indica que por cierre de temporada tendrá descuento del 40 % en sus prendas se está referenciando un precio de oferta.
 
     separador
 
@@ -466,7 +466,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema1/40.png", alt="descripcion")
       .col-lg-9
-        p.mb-3 En algunos libros es  llamada también distribución, es la variable de la mezcla de mercadeo (marketing mix) responsable de hacer que el producto llegue a las manos del cliente. Como consecuencia de este concepto, surgen los canales de distribución como aquellos medios que utilizan las empresas para gestionar el proceso de entrega del producto. A continuación va a ver los canales de distribución existentes:
+        p.mb-3 En algunos libros es  llamada también distribución, es la variable de la mezcla de mercadeo (#[em marketing mix]) responsable de hacer que el producto llegue a las manos del cliente. Como consecuencia de este concepto, surgen los canales de distribución como aquellos medios que utilizan las empresas para gestionar el proceso de entrega del producto. A continuación va a ver los canales de distribución existentes:
         .row.align-items-center
           .col-lg-6
             h5 Canal de distribución directo
@@ -518,7 +518,7 @@
     
     .cajon.bgr_42.p-4.mb-4.mb-lg-5
       h5.text-bold Ejemplos
-      p.mb-0 Una empresa llamada “La mejor horma” produce y vende sus zapatos a través de un punto de venta propio, por otro lado, otra empresa de zapatos llamada “Calcetín” fabrica zapatos y los lleva a diferentes almacenes ubicados en el centro de la ciudad para que los vendan. En esta situación se tiene entonces, el almacén “La mejor horma”que tiene un canal de distribución directo, porque los clientes pueden acudir a su local a comprar los zapatos, mientras que el almacén “Calzetín” tiene un canal de distribución indirecto porque llega a sus clientes a través de otras empresas.
+      p.mb-0 Una empresa llamada “La mejor horma” produce y vende sus zapatos a través de un punto de venta propio, por otro lado, otra empresa de zapatos llamada “Calcetín” fabrica zapatos y los lleva a diferentes almacenes ubicados en el centro de la ciudad para que los vendan. En esta situación se tiene entonces, el almacén “La mejor horma”que tiene un canal de distribución directo, porque los clientes pueden acudir a su local a comprar los zapatos, mientras que el almacén “Calcetín” tiene un canal de distribución indirecto porque llega a sus clientes a través de otras empresas.
  
     P Las estrategias de distribución son un tema interesante en las ventas mayoristas, ya que tienen estrecha relación con los canales y hacen referencia a la forma en que las empresas planteen cómo llegarán a sus clientes. 
 
@@ -533,12 +533,12 @@
           p Los esfuerzos se enfocan en llegar al cliente final, para que este acuda a los distribuidores a solicitar el producto; cuando esta estrategia es operada con éxito pueden ocurrir dos cosas: 
           p <b>01.</b> Que los distribuidores que no tienen el producto en su portafolio lo incluyan. 
           p.mb-0 <b>02.</b> Que se tengan mayores ventas si el producto ya hace parte de lo que ofrece el distribuidor.
-      .col-12.col-md-6.col-lg-5(data-aos="fade-left")
-        p.text-bold.mb-0.etiqueta_2.text-center.p-3 Estrategia de distribución <em>push</em> (empujar)  
+      .col-12.col-md-5(data-aos="fade-left")
+        p.text-bold.mb-0.etiqueta_2.text-center.p-3 Estrategia de distribución #[em push] (empujar)  
         figure
           img(src='@/assets/curso/tema1/t1-33.png', alt='Texto que describa la imagen')
         div.p-5.bgr_22
-          p.mb-0 En dicha estrategia, el foco es lograr que los intermediarios impulsen con los clientes la colocación del producto, por tanto, las estrategias de distribución y comunicación se enfocan en “conquistar” los distribuidores. Esta estrategia push es la que se utiliza cuando se desea una colocación (venta) rápida de los productos mayoristas.
+          p.mb-0 En dicha estrategia, el foco es lograr que los intermediarios impulsen con los clientes la colocación del producto, por tanto, las estrategias de distribución y comunicación se enfocan en “conquistar” los distribuidores. Esta estrategia #[em push] es la que se utiliza cuando se desea una colocación (venta) rápida de los productos mayoristas.
     
     separador
 
@@ -566,7 +566,7 @@
                 .cajon.bgr_23.p-4
                   p.text-bold Entre las características de la propaganda se encuentran:
                   p.mb-0 <b>a.</b> Suelen ser mensajes repetitivos con el fin de generar recordación. 
-                  p.mb-0 <b>b.</b> Son mensajes persuasivos, es decir, que deben tener la capacidad de poder influir en las ideas o los comportamientos de las personas- 
+                  p.mb-0 <b>b.</b> Son mensajes persuasivos, es decir, que deben tener la capacidad de poder influir en las ideas o los comportamientos de las personas.
                   p.mb-0 <b>c.</b> Se utilizan recursos llamativos, con el fin de llamar la atención y los mensajes se suelen relacionar con situaciones de impacto en la comunidad, con el fin de generar empatía entre quienes recepcionan el mensaje.
       .py-4.py-md-5(titulo="Publicidad" :icono="require('@/assets/curso/tema1/t1-35.svg')")
         .row.justify-content-center

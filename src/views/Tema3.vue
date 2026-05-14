@@ -21,7 +21,7 @@
         .cajon.bgr_23.p-4
           p.mb-0 Respecto a la propuesta comercial es importante referenciar que el rol (cargo) responsable de realizarla es el vendedor, no obstante, en algunas empresas muy organizadas cuentan con <em>templates</em> (plantillas) o proformas, las cuales se crean para estandarizar y facilitar la labor comercial.
     
-    p.mb-5 A continuación vea los  elementos sugeridos para una propuesta comercial:
+    p.mb-5 A continuación, se describen los elementos sugeridos para una propuesta comercial:
 
     .row.justify-content-center(data-aos="flip-left")
       .col-12.col-md-6.col-lg-4

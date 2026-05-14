@@ -23,7 +23,7 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-10.p-4.bg_grad-05
         p.mb-0.text-bold Documentos negociables 
-        p A continuación se listan los principales documentos clasificados como documentos negociables, recordando que suelen usarse de forma frecuente por las empresas en Colombia, dado que facilitan las operaciones comerciales, son de uso diario y pueden ser utilizados como respaldo, ya que pueden convertirse en medios de pago. Los más usados en el medio son los siguientes:
+        p A continuación, se listan los principales documentos clasificados como documentos negociables, recordando que suelen usarse de forma frecuente por las empresas en Colombia, dado que facilitan las operaciones comerciales, son de uso diario y pueden ser utilizados como respaldo, ya que pueden convertirse en medios de pago. Los más usados en el medio son los siguientes:
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_2(data-aos="zoom-out-down")
       .row.justify-content-center(titulo="El cheque")
@@ -102,7 +102,7 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-8.order-2.order-lg-1.mb-3
         p.mb-0.text-bold Documentos impresos: 
-        p se sugiere sean generados a computador (para mayor claridad) y entregados para firma en dos tenores (es decir, un ejemplar para cada una de las partes). Asimismo, que sean diligenciados en letra negra, referenciando muy bien la fecha en que se celebra y sin dejar espacios en blanco. Es importante realizar la validación sobre si quien firma realmente tiene facultades (poder) para hacerlo, en el caso de personas naturales quien lo firma es quien está aceptando las condiciones del servicio y en términos generales deben ser personas mayores de 18 años. En el caso de personas jurídicas (empresas) debe ser el representante legal (gerente) o un apoderado (una persona a la cual legalmente se le ha concedido esa autorización).
+        p Se sugiere que sean generados a computador (para mayor claridad) y entregados para firma en dos tenores (es decir, un ejemplar para cada una de las partes). Asimismo, que sean diligenciados en letra negra, referenciando muy bien la fecha en que se celebra y sin dejar espacios en blanco. Es importante realizar la validación sobre si quien firma realmente tiene facultades (poder) para hacerlo, en el caso de personas naturales quien lo firma es quien está aceptando las condiciones del servicio y en términos generales deben ser personas mayores de 18 años. En el caso de personas jurídicas (empresas) debe ser el representante legal (gerente) o un apoderado (una persona a la cual legalmente se le ha concedido esa autorización).
         p.mb-0 Para documentos no impresos se debe tener en cuenta que en Colombia existen tres tipos de firmas, y que dependiendo del tipo de soporte o de la empresa con la que se realice la transacción se solicitará una u otra, véalas a continuación:
       .col-12.col-md-8.col-lg-4.order-1.order-lg-2.d-flex.mb-4.align-items-center
         figure

@@ -43,45 +43,51 @@
             figure
               img(src='@/assets/curso/tema2/t2-4.png', alt='Texto que describa la imagen')
      
-    p.mb-5 A modo de referente, Bogotá Emprende (Secretaría de Desarrollo Económico de Bogotá- Cámara de Comercio de Bogotá, 2010) plantea las reglas de oro en materia de etiqueta empresarial, las cuales tienen por fin dar algunas pautas para los equipos de trabajo, las cuales se muestran en la siguiente tabla:
+    p.mb-5 A modo de referente, Bogotá Emprende (Secretaría de Desarrollo Económico de Bogotá- Cámara de Comercio de Bogotá, 2010) plantea las reglas de oro en materia de etiqueta empresarial, las cuales tienen por fin dar algunas pautas para los equipos de trabajo, estas reglas se presenta a continuación:
 
     .row.justify-content-center(data-aos="zoom-out-down")
       .col-12.col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
           span Reglas de oro en la etiqueta empresarial
-        .tabla-b.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones.mb-5
           table.bgr_24
-            tr
-              th.bgr_25.text-bold.text-center Honestidad
-              td.ps-3.ps-md-4.bgr_26 Quien no actúa correctamente, no inspira confianza.
-            tr
-              th.bgr_25.text-bold.text-center Respeto
-              td.ps-3.ps-md-4.bgr_26 Hace alusión a reconocer al individuo como entidad única.
-            tr
-              th.bgr_25.text-bold.text-center Puntualidad
-              td.ps-3.ps-md-4.bgr_26 Cumplir a la hora acordada y aplicar este criterio en todo (reuniones, eventos, entregas).
-            tr
-              th.bgr_25.text-bold.text-center Discreción
-              td.ps-3.ps-md-4.bgr_26 Implica saber guardar la información de la empresa e incluso temas de orden personal.
-            tr
-              th.bgr_25.text-bold.text-center Amabilidad
-              td.ps-3.ps-md-4.bgr_26 Ser cortés y optimista. Una sonrisa siempre es bien recibida.
-            tr
-              th.bgr_25.text-bold.text-center Actitud positiva
-              td.ps-3.ps-md-4.bgr_26 Es definitivo a la hora de interactuar con clientes.
-            tr
-              th.bgr_25.text-bold.text-center Imagen
-              td.ps-3.ps-md-4.bgr_26 La imagen de la empresa depende en gran medida de la buena impresión que causen los colaboradores en los clientes.
-            tr
-              th.bgr_25.text-bold.text-center Comunicación
-              td.ps-3.ps-md-4.bgr_26 Buena comunicación conlleva aplicarla en todas sus manifestaciones: escrita, oral e interpersonal.
-            tr
-              th.bgr_25.text-bold.text-center Elegancia
-              td.ps-3.ps-md-4.bgr_26 La clave de la elegancia es adaptar las tendencias de la moda al estilo personal, incluyendo el comportamiento en diferentes escenarios.
-            tr
-              th.bgr_25.text-bold.text-center Coherencia
-              td.ps-3.ps-md-4.bgr_26 Reflejar el comportamiento la filosofía de la organización para ofrecer credibilidad y potenciar la imagen corporativa.
+            caption Nota. SENA, (2026).
+            thead
+              tr
+                th.text-bold.text-center Regla de etiqueta empresarial
+                th.text-bold.text-center Explicación
+            tbody
+              tr
+                th.text-bold Honestidad
+                td.ps-3.ps-md-4.bgr_26 Quien no actúa correctamente, no inspira confianza.
+              tr
+                th.text-bold Respeto
+                td.ps-3.ps-md-4.bgr_26 Hace alusión a reconocer al individuo como entidad única.
+              tr
+                th.text-bold Puntualidad
+                td.ps-3.ps-md-4.bgr_26 Cumplir a la hora acordada y aplicar este criterio en todo (reuniones, eventos, entregas).
+              tr
+                th.text-bold Discreción
+                td.ps-3.ps-md-4.bgr_26 Implica saber guardar la información de la empresa e incluso temas de orden personal.
+              tr
+                th.text-bold Amabilidad
+                td.ps-3.ps-md-4.bgr_26 Ser cortés y optimista. Una sonrisa siempre es bien recibida.
+              tr
+                th.text-bold Actitud positiva
+                td.ps-3.ps-md-4.bgr_26 Es definitivo a la hora de interactuar con clientes.
+              tr
+                th.text-bold Imagen
+                td.ps-3.ps-md-4.bgr_26 La imagen de la empresa depende en gran medida de la buena impresión que causen los colaboradores en los clientes.
+              tr
+                th.text-bold Comunicación
+                td.ps-3.ps-md-4.bgr_26 Buena comunicación conlleva aplicarla en todas sus manifestaciones: escrita, oral e interpersonal.
+              tr
+                th.text-bold Elegancia
+                td.ps-3.ps-md-4.bgr_26 La clave de la elegancia es adaptar las tendencias de la moda al estilo personal, incluyendo el comportamiento en diferentes escenarios.
+              tr
+                th.text-bold Coherencia
+                td.ps-3.ps-md-4.bgr_26 Reflejar el comportamiento la filosofía de la organización para ofrecer credibilidad y potenciar la imagen corporativa.
 
              
 
