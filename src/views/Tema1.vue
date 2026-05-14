@@ -404,7 +404,7 @@
                   .modif_5
                   p #[strong A. Descuento por volumen:]  
                   p Entre más unidades adquiera el cliente, el precio unitario será menor, acá se estimula que el cliente quiera comprar más unidades. Este es claramente el tipo de descuento más utilizado en las ventas mayoristas, donde dependiendo del nivel de compra, el cliente obtendrá un precio unitario más bajo.
-                  p.mb-0 A modo de ejemplo y retomado el caso previo en la venta de computadores; el precio si en el colegio compran 10 equipos de cómputo, debería ser alto si en vez de 10 compra 100.
+                  p.mb-0 A modo de ejemplo y retomado el caso previo en la venta de computadores; el precio si en el colegio compran 10 equipos de cómputo, debería ser más bajo si en vez de 10 compra 100.
             .row.p-3
               .col-md-12.px-4
                 .position-relative
@@ -513,7 +513,7 @@
     
     .cajon.bgr_42.p-4.mb-4.mb-lg-5
       h5.text-bold Ejemplos
-      p.mb-0 Una empresa llamada “La mejor horma” produce y vende sus zapatos a través de un punto de venta propio, por otro lado, otra empresa de zapatos llamada “Calcetín” fabrica zapatos y los lleva a diferentes almacenes ubicados en el centro de la ciudad para que los vendan. En esta situación se tiene entonces, el almacén “La mejor horma”que tiene un canal de distribución directo, porque los clientes pueden acudir a su local a comprar los zapatos, mientras que el almacén “Calcetín” tiene un canal de distribución indirecto porque llega a sus clientes a través de otras empresas.
+      p.mb-0 Una empresa llamada “La mejor horma” produce y vende sus zapatos a través de un punto de venta propio, por otro lado, otra empresa de zapatos llamada “Calcetín” fabrica zapatos y los lleva a diferentes almacenes ubicados en el centro de la ciudad para que los vendan. En esta situación se tiene entonces, el almacén “La mejor horma” que tiene un canal de distribución directo, porque los clientes pueden acudir a su local a comprar los zapatos, mientras que el almacén “Calcetín” tiene un canal de distribución indirecto porque llega a sus clientes a través de otras empresas.
  
     P Las estrategias de distribución son un tema interesante en las ventas mayoristas, ya que tienen estrecha relación con los canales y hacen referencia a la forma en que las empresas planteen cómo llegarán a sus clientes. 
 
