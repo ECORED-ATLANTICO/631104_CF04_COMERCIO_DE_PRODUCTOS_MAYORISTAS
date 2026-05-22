@@ -11,8 +11,8 @@
 
     figure.mb-5(data-aos="zoom-in-up")
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Z9zSnDD46IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(style="font-weight: normal;") Video: Atención al cliente
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/BgoVnlYI-EY" title="Atención al cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Atención al cliente
 
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")

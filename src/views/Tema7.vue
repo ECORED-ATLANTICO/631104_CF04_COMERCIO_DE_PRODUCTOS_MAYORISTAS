@@ -110,8 +110,8 @@
     
     figure.mb-5(data-aos="zoom-in-up")
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/MgNyjRdgJWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(style="font-weight: normal;") Video: Tipos de firmas
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yJTWZ4Xrj1E" title="Tipos de firmas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Tipos de firmas
     .row.justify-content-center(data-aos="flip-up")
       .col-12.col-md-12.col-lg-10
         .row.mb-5.bgr_35.p-3
