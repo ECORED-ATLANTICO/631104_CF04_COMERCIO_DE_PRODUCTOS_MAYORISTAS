@@ -50,7 +50,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
           span Reglas de oro en la etiqueta empresarial
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.tabla-a--aligned.color-acento-botones.mb-5
           table.bgr_24
             caption Nota. SENA, (2026).
             thead

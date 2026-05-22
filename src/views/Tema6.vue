@@ -7,7 +7,18 @@
         span 6
       h1 Ventas
     
-    p.mb-5 <b>La venta en sí misma es una transacción entre dos agentes económicos, es un proceso voluntario donde una empresa o persona ofrece de manera legal productos a otra denominada cliente potencial</b>, buscando que esta pague el precio esperado. De acuerdo con esto, para que se realice una venta debe asegurarse: i. la participación de dos roles (comprador y vendedor), ii. un producto y iii. un valor de intercambio (precio); sin embargo, para realizarla de manera adecuada e influenciar el éxito de la misma, las ventas deben verse de forma integral. Por ello, se han definido tres momentos secuenciales: preventa, venta y postventa, en los cuales se desarrolla el ciclo comercial:
+    p <b>La venta en sí misma es una transacción entre dos agentes económicos, es un proceso voluntario donde una empresa o persona ofrece de manera legal productos a otra denominada cliente potencial</b>, buscando que esta pague el precio esperado. De acuerdo con esto, para que se realice una venta debe asegurarse: 
+    ul.lista-ul--color
+      li.d-flex.align-items-start.mb-2
+        i.fas.fa-paper-plane.colr_3.me-2
+        span La participación de dos roles (comprador y vendedor). 
+      li.d-flex.align-items-start.mb-2
+        i.fas.fa-paper-plane.colr_3.me-2
+        span Un producto.
+      li.d-flex.align-items-start.mb-2
+        i.fas.fa-paper-plane.colr_3.me-2
+        span Un valor de intercambio (precio).
+    p Sin embargo, para realizarla de manera adecuada e influenciar el éxito de la misma, las ventas deben verse de forma integral. Por ello, se han definido tres momentos secuenciales: preventa, venta y postventa, en los cuales se desarrolla el ciclo comercial:
 
     .row.mb-5.justify-content-center
       .col-sm-8.col-lg-3.mb-3.mb-lg-0
@@ -41,7 +52,7 @@
       .col-12.col-lg-8.mb-4.mb-lg-0(data-aos="fade-up-right")
         p Existen diferentes tipos de ventas; sin embargo, para un vendedor de ventas mayoristas es importante conocer dos tipologías, la clasificación asociada al medio por el cual se realizan y las ventas según el tipo de cliente al cual se realiza la venta.
         p.mb-0.text-bold Tipos de ventas según el medio
-        p.mb-0 según el medio a través del cual se realice la venta se encuentran: las ventas presenciales, que son aquellas que se realizan con presencia física del vendedor, son las llamadas ventas tradicionales; ventas telefónicas, son aquellas que se hacen a través de los <em>call center</em> (centros de llamadas) y las ventas en canales digitales, que son aquellas que se realizan a través de plataformas tecnológicas, tales como redes sociales, <em>marketplace</em> (tiendas virtuales) o <em>bot</em> (robots).
+        p.mb-0 Según el medio a través del cual se realice la venta se encuentran: las ventas presenciales, que son aquellas que se realizan con presencia física del vendedor, son las llamadas ventas tradicionales; ventas telefónicas, son aquellas que se hacen a través de los <em>call center</em> (centros de llamadas) y las ventas en canales digitales, que son aquellas que se realizan a través de plataformas tecnológicas, tales como redes sociales, <em>marketplace</em> (tiendas virtuales) o <em>bot</em> (robots).
       .col-sm-8.col-lg-4(data-aos="fade-up-left")
         figure
           img(src='@/assets/curso/tema6/t6-2.png', alt='Texto que describa la imagen')
@@ -51,7 +62,7 @@
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Tabla 3
           span Ventajas y desventajas de las ventas según el medio 
-        .tabla-a.color-acento-contenido.mb-5.modif_24
+        .tabla-a.tabla-a--aligned.color-acento-contenido.mb-5.modif_24
           table.bgr_11   
             thead
               tr
@@ -60,22 +71,22 @@
                 th(style="width:40%")  Desventaja
             tbody
               tr
-                td.bgr_12.text-bold.text-center 
-                  p.mb-0.text-bold Venta presencial.
+                td.bgr_12.text-bold
+                  p.mb-0.text-bold Venta presencial
                 td.ps-3.ps-md-4.bgr_13 Generar mayor cercanía con el cliente.
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0 Representan mayores costos para la empresa.
               tr
-                td.bgr_12.text-bold.text-center 
-                  p.mb-0.text-bold Venta telefónica.
+                td.bgr_12.text-bold
+                  p.mb-0.text-bold Venta telefónica
                 td.ps-3.ps-md-4.bgr_13 Tienen un tiempo rápido de cierre.
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0 En ocasiones generan desconfianza entre los clientes.
               tr
-                td.bgr_12.text-bold.text-center 
-                  p.mb-0.text-bold Venta en canales digitales.
+                td.bgr_12.text-bold
+                  p.mb-0.text-bold Venta en canales digitales
                 td.ps-3.ps-md-4.bgr_13 Tienen los menores costos frente a las ventas presenciales y telefónicas.
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0 No aplican para todo tipo de clientes, dada la brecha digital (clientes que no tienen el conocimiento o la confianza para comprar en medios digitales).
 
     p.text-bold Tipos de ventas según el cliente al cual se dirigen los productos 
@@ -407,7 +418,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema6/t6-28.png')})`}"
           )
           .bloque-texto-g__texto.p-4.p-lg-5
-            p.mb-0 Navarro (2012) en su libro Técnicas de ventas propone un esquema interesante para el manejo de objeciones, comenzando por la escucha como el principio básico de la comunicación, luego a partir de la asertividad anticiparse a posibles alternativas de respuesta o solución, posteriormente a través de un ejercicio de empatía comprender la situación y finalmente si el cliente aún tiene inquietudes y refuta lo expuesto, exponer con argumentos claros y respetuosos la alternativa de solución. Véalo con más detalle a continuación:
+            p.mb-0 Navarro (2012) en su libro Técnicas de ventas propone un esquema interesante para el manejo de objeciones, comenzando por la escucha como el principio básico de la comunicación, luego a partir de la asertividad anticiparse a posibles alternativas de respuesta o solución, posteriormente a través de un ejercicio de empatía comprender la situación y finalmente si el cliente aún tiene inquietudes y refuta lo expuesto, exponer con argumentos claros y respetuosos la alternativa de solución. Se detalla a continuación:
     
     .row.mb-5.justify-content-center
       .col-12.col-md-10

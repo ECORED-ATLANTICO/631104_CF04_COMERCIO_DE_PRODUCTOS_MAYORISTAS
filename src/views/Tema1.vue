@@ -65,7 +65,7 @@
           span Las 4 P del mercadeo
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/t1-7-mob.svg", alt="La figura 1 muestra las 4P del mercadeo. En el centro aparece el concepto “4P marketing mix. Alrededor se presentan las cuatro variables del mercadeo: “promoción (comunicación)”, relacionada con la marca y la comunicación de la oferta de valor; “producto”, definido como aquello que se ofrece en el mercado; “precio”, entendido como el valor monetario de la transacción; y “plaza”, asociada a los canales de distribución y a la forma en que el producto llega al cliente.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-7.svg", alt="La figura 1 muestra las 4P del mercadeo. En el centro aparece el concepto “4P marketing mix. Alrededor se presentan las cuatro variables del mercadeo: “promoción (comunicación)”, relacionada con la marca y la comunicación de la oferta de valor; “producto”, definido como aquello que se ofrece en el mercado; “precio”, entendido como el valor monetario de la transacción; y “plaza”, asociada a los canales de distribución y a la forma en que el producto llega al cliente.")
-        figcaption Nota. SENA, 2026
+        figcaption Nota. SENA, (2026).
     
     .row.justify-content-center.align-items-center
       .col-12.col-md-12.col.lg-10
@@ -221,7 +221,7 @@
           h5 Tabla 1
           span Algunas monedas de circulación mundial
 
-        .tabla-b.color-acento-botones.mb-5
+        .tabla-b.tabla-b--aligned.color-acento-botones.mb-5
           table.bgr_11
             caption(style="font-weight: normal;") Nota. Relación de factores en la manipulación de mercancías o pedidos.   
             thead
@@ -231,52 +231,52 @@
                 th(style="width:25%")  Notación – Código ISO
             tbody
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Peso colombiano
                 td.ps-3.ps-md-4 Colombia
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold COP
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Dólar estadounidense
                 td.ps-3.ps-md-4 Estados Unidos
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold USD
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Euro
                 td.ps-3.ps-md-4 Alemania, Francia, Italia, España, Bélgica, Grecia, Austria, Irlanda, Finlandia, Portugal, Eslovaquia, Malta, Países Bajos, Chipre.
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold EUR
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Peso chileno
                 td.ps-3.ps-md-4 Chile
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold CLP
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Peso mexicano
                 td.ps-3.ps-md-4 México
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold MXN
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Peso argentino
                 td.ps-3.ps-md-4 Argentina
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold ARS
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Real
                 td.ps-3.ps-md-4 Brasil
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold BRL
               tr
-                td.bgr_12.text-bold.text-center 
+                td.bgr_12.text-bold
                   p.mb-0.text-bold Yen japonés
                 td.ps-3.ps-md-4 Japón
-                td.bgr_14.text-bold.text-center 
+                td.bgr_14.text-bold
                   p.mb-0.text-bold JPY
               
     p.mb-5 En las ventas mayoristas la variable precio cobra alta relevancia, dado que se realizan ventas por volumen, es decir, en grandes cantidades y a pesar de que los vendedores suelen trabajar con listas de precios  (herramientas en donde se describen cuáles son los precios unitarios, es decir, ya se tiene determinado cuál es el precio para cada producto), es importante que un vendedor sepa cómo definir el precio, dado que dependiendo del tipo de venta que se realice puede verse en la necesidad de calcular el precio de un producto. 
@@ -461,7 +461,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema1/40.png", alt="descripcion")
       .col-lg-9
-        p.mb-3 En algunos libros es  llamada también distribución, es la variable de la mezcla de mercadeo (#[em marketing mix]) responsable de hacer que el producto llegue a las manos del cliente. Como consecuencia de este concepto, surgen los canales de distribución como aquellos medios que utilizan las empresas para gestionar el proceso de entrega del producto. A continuación va a ver los canales de distribución existentes:
+        p.mb-3 En algunos libros es  llamada también distribución, es la variable de la mezcla de mercadeo (#[em marketing mix]) responsable de hacer que el producto llegue a las manos del cliente. Como consecuencia de este concepto, surgen los canales de distribución como aquellos medios que utilizan las empresas para gestionar el proceso de entrega del producto. A continuación los canales de distribución existentes:
         .row.align-items-center
           .col-lg-6
             h5 Canal de distribución directo

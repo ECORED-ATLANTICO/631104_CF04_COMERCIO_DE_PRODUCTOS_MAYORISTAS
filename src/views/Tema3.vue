@@ -51,7 +51,7 @@
             .row.p-3
               .col-md-12.px-4
                 p.mb-0.text-bold Datos de contacto del vendedor 
-                p Especificar nombres y apellidos completos, cargo, número telefónico de contacto y email corporativo (es decir, no el personal sino aquel de la empresa).
+                p Especificar nombres y apellidos completos, cargo, número telefónico de contacto y email corporativo (es decir, no el personal sino de la empresa).
     
     .row.justify-content-center(data-aos="flip-up")
       .col-12.col-md-12.col-lg-10

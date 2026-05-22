@@ -66,7 +66,7 @@
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-lg-9.order-2.order-lg-1
-        p Como se mencionaba previamente, la discapacidad es un tema tan relevante dentro de la inclusión que vale la pena mirarlo en detalle. En el informe Mundial de la Discapacidad de la OMS y del Banco Mundial de 201 se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación se mencionan como contexto algunas consideraciones:
+        p Como se mencionaba previamente, la discapacidad es un tema tan relevante dentro de la inclusión que vale la pena mirarlo en detalle. En el informe Mundial de la Discapacidad de la OMS y del Banco Mundial de 2011 se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación se mencionan como contexto algunas consideraciones:
         .bgr_29.p-4
           ul.lista-ul--color
             li.mb-2.d-flex
