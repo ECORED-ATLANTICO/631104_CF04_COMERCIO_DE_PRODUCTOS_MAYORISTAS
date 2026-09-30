@@ -455,7 +455,7 @@
               type="application/pdf"
               @mouseover="mostrarIndicador = false"
             )
-              span Enlace PDF
+              span Ir al recurso
               i.fas.fa-file-pdf
               .indicador--click(v-if="mostrarIndicador")
     

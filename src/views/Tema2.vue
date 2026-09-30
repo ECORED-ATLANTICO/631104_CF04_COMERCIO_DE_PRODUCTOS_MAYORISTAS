@@ -52,7 +52,6 @@
           span Reglas de oro en la etiqueta empresarial
         .tabla-a.tabla-a--aligned.color-acento-botones.mb-5
           table.bgr_24
-            caption Nota. SENA, (2026).
             thead
               tr
                 th.text-bold.text-center Regla de etiqueta empresarial

@@ -65,7 +65,6 @@
           span Las 4 P del mercadeo
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/t1-7-mob.svg", alt="La figura 1 muestra las 4P del mercadeo. En el centro aparece el concepto “4P marketing mix. Alrededor se presentan las cuatro variables del mercadeo: “promoción (comunicación)”, relacionada con la marca y la comunicación de la oferta de valor; “producto”, definido como aquello que se ofrece en el mercado; “precio”, entendido como el valor monetario de la transacción; y “plaza”, asociada a los canales de distribución y a la forma en que el producto llega al cliente.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-7.svg", alt="La figura 1 muestra las 4P del mercadeo. En el centro aparece el concepto “4P marketing mix. Alrededor se presentan las cuatro variables del mercadeo: “promoción (comunicación)”, relacionada con la marca y la comunicación de la oferta de valor; “producto”, definido como aquello que se ofrece en el mercado; “precio”, entendido como el valor monetario de la transacción; y “plaza”, asociada a los canales de distribución y a la forma en que el producto llega al cliente.")
-        figcaption Nota. SENA, (2026).
     
     .row.justify-content-center.align-items-center
       .col-12.col-md-12.col.lg-10

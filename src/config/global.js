@@ -162,7 +162,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/631104_CF04_DU.zip',
+        download: 'downloads/631104_CF04_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -221,7 +221,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardila, E. y Sastoque, F. (1984). <em>Técnica de ventas: el producto.</em>  SENA.',
+        'Ardila, E. y Sastoque, F. (1984). Técnica de ventas: el producto.  SENA.',
       link: 'https://repositorio.sena.edu.co/handle/11404/1896',
     },
     {
@@ -230,14 +230,13 @@ export default {
       link: '',
     },
     {
-      referencia:
-        'Navarro, M. (2012). <em>Técnicas de ventas. Red Tercer Milenio.</em>',
+      referencia: 'Navarro, M. (2012). Técnicas de ventas. Red Tercer Milenio.',
       link:
         'https://www.academia.edu/22896902/T%C3%A9cnicas_de_ventas_MARIANA_ELIZABETH_NAVARRO_MEJIA',
     },
     {
       referencia:
-        'Secretaria Distrital de Desarrollo Económico de Bogotá – Cámara de Comercio de Bogotá. (2010). <em>Cartilla práctica Etiqueta empresarial. Editorial Kimpres.</em>',
+        'Secretaria Distrital de Desarrollo Económico de Bogotá – Cámara de Comercio de Bogotá. (2010). Cartilla práctica Etiqueta empresarial. Editorial Kimpres.',
       link:
         'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/1172/4614_cartilla_etiquetaempresarial.pdf?sequence=1&isAllowed=y',
     },
@@ -352,12 +351,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -367,7 +366,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -375,7 +374,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com" target="_blank">www.magnific.com/es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
